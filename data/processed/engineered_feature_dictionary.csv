@@ -1,0 +1,316 @@
+column_name,source_column,feature_type,non_empty_count,example_values,description
+report_id,nan,derived,832,gm-cruise-collision-report-january-7-2019-pdf; aurora-innovation-collision-report-january-10-2019-pdf; gm-cruise-collision-report-january-10-2019-pdf,Stable report identifier from the DMV PDF slug.
+report_title,nan,base,832,"GM Cruise January 7, 2019 (PDF); Aurora Innovation January 10, 2019 (PDF); GM Cruise January 10, 2019 (PDF)",Base column carried from normalized CSV.
+report_date_manifest,nan,base,832,2019-01-07; 2019-01-10; 2019-01-26,Base column carried from normalized CSV.
+report_year_folder,nan,base,832,2019; 2020; 2021,Base column carried from normalized CSV.
+page_url,nan,base,832,https://www.dmv.ca.gov/portal/file/gm-cruise-collision-report-january-7-2019-pdf/; https://www.dmv.ca.gov/portal/file/aurora-innovation-collision-report-january-10-2019-pdf/; https://www.dmv.ca.gov/portal/file/gm-cruise-collision-report-january-10-2019-pdf/,Base column carried from normalized CSV.
+pdf_path,nan,base,832,reports/2019/gm-cruise-collision-report-january-7-2019-pdf.pdf; reports/2019/aurora-innovation-collision-report-january-10-2019-pdf.pdf; reports/2019/gm-cruise-collision-report-january-10-2019-pdf.pdf,Base column carried from normalized CSV.
+pdf_exists,nan,base,832,1,Base column carried from normalized CSV.
+page_count,nan,base,832,3; 1; 2,Base column carried from normalized CSV.
+ol316_revision,nan,base,829,2/2017; 7/2020,Base column carried from normalized CSV.
+manufacturer_name,nan,base,826,GM Cruise LLC; Aurora Innovation Inc; Waymo LLC,Base column carried from normalized CSV.
+avt_number,nan,base,9,AVT; 003; AVDT004,Base column carried from normalized CSV.
+business_name,nan,base,824,Cruise; Aurora Innovation Inc; Waymo LLC,Base column carried from normalized CSV.
+business_phone,nan,base,0,nan,Base column carried from normalized CSV.
+manufacturer_street_address,nan,base,3,1201 Bryant Street; 1149 Chess Drive; 1600 Amphitheatre Parkway,Base column carried from normalized CSV.
+manufacturer_city,nan,base,5,San Francisco; Sa; Foster City,Base column carried from normalized CSV.
+manufacturer_state,nan,base,9,CA,Base column carried from normalized CSV.
+manufacturer_zip_code,nan,base,3,94103.0; 94404.0; 94043.0,Base column carried from normalized CSV.
+accident_date,nan,base,826,01/07/2019; 01/10/2019; 01/26/2019,Base column carried from normalized CSV.
+accident_time,nan,base,825,06:54; 02:52; 11:29,Base column carried from normalized CSV.
+accident_meridiem,nan,base,0,nan,Base column carried from normalized CSV.
+vehicle1_year,nan,base,825,2019.0; 2017.0; 2018.0,Base column carried from normalized CSV.
+vehicle1_make,nan,base,825,Chevrolet; Lincoln; Chrysler,Base column carried from normalized CSV.
+vehicle1_model,nan,base,825,Bolt; MKZ; Pacifica,Base column carried from normalized CSV.
+vehicle1_license_plate,nan,base,1,67860S3,Base column carried from normalized CSV.
+vehicle1_vin,nan,base,1,5TDDGRFHXHS029819,Base column carried from normalized CSV.
+vehicle1_registration_state,nan,base,813,CA; California; 2,Base column carried from normalized CSV.
+accident_location_address,nan,base,825,Folsom St. and 11th St.; Townsend and 3rd; S. Van Ness Ave between 12th St. and 13th St.,Base column carried from normalized CSV.
+accident_city,nan,base,825,San Francisco; Mountain View; Los Altos,Base column carried from normalized CSV.
+accident_county,nan,base,822,San Francisco; Santa Clara; Alameda,Base column carried from normalized CSV.
+accident_state,nan,base,823,CA,Base column carried from normalized CSV.
+accident_zip_code,nan,base,822,94103.0; 94107.0; 94041.0,Base column carried from normalized CSV.
+vehicle1_moving,nan,base,832,0,Base column carried from normalized CSV.
+vehicle1_stopped_in_traffic,nan,base,832,0,Base column carried from normalized CSV.
+vehicle1_involved_pedestrian,nan,base,832,0,Base column carried from normalized CSV.
+vehicle1_involved_bicyclist,nan,base,832,0,Base column carried from normalized CSV.
+vehicle1_involved_other,nan,base,832,0,Base column carried from normalized CSV.
+vehicle1_other_text,nan,base,174,Skateboarder; Truck; Scooter,Base column carried from normalized CSV.
+number_of_vehicles_involved,nan,base,817,2; 3; 1,Base column carried from normalized CSV.
+vehicle1_driver_name,nan,base,7,N/A - Driverless; Zoox,Base column carried from normalized CSV.
+vehicle1_driver_license_number,nan,base,6,N/A - Driverless,Base column carried from normalized CSV.
+vehicle1_driver_license_state,nan,base,532,CA; OR; IL,Base column carried from normalized CSV.
+vehicle1_driver_date_of_birth,nan,base,2,1/28/2022; 04/15/1992,Base column carried from normalized CSV.
+vehicle1_insurance_company,nan,base,0,nan,Base column carried from normalized CSV.
+vehicle1_policy_number,nan,base,1,1.0,Base column carried from normalized CSV.
+vehicle1_company_naic_number,nan,base,1,24147.0,Base column carried from normalized CSV.
+vehicle1_policy_from,nan,base,0,nan,Base column carried from normalized CSV.
+vehicle1_policy_to,nan,base,0,nan,Base column carried from normalized CSV.
+vehicle1_damage_level,nan,base,824,moderate; minor; major,Base column carried from normalized CSV.
+vehicle1_damage_zones,nan,base,749,front_driver_side_1; front_driver_side_3; left_front_corner_1; rear_bumper; right_rear_1; right_rear_3; right_rear_1; right_rear_3; right_rear_passenger_2,Base column carried from normalized CSV.
+vehicle2_year,nan,base,454,2018; 2004; 2017,Base column carried from normalized CSV.
+vehicle2_model,nan,base,653,Pcx150; Honda CR-V; Prius,Base column carried from normalized CSV.
+vehicle2_license_plate,nan,base,17,unk.; Unk.; Unk,Base column carried from normalized CSV.
+vehicle2_vin,nan,base,43,UNK; unk; unk.,Base column carried from normalized CSV.
+vehicle2_registration_state,nan,base,560,CA; California; unk.,Base column carried from normalized CSV.
+vehicle2_moving,nan,base,832,0,Base column carried from normalized CSV.
+vehicle2_stopped_in_traffic,nan,base,832,0,Base column carried from normalized CSV.
+vehicle2_involved_pedestrian,nan,base,832,0,Base column carried from normalized CSV.
+vehicle2_involved_bicyclist,nan,base,832,0,Base column carried from normalized CSV.
+vehicle2_involved_other,nan,base,832,0,Base column carried from normalized CSV.
+vehicle2_other_text,nan,base,81,Parked; Skateboarder; Electric Scooterist,Base column carried from normalized CSV.
+vehicle2_driver_name,nan,base,27,UNK; unk.; unk,Base column carried from normalized CSV.
+vehicle2_driver_license_number,nan,base,34,unk; UNK; unk.,Base column carried from normalized CSV.
+vehicle2_driver_license_state,nan,base,309,un; CA; Un,Base column carried from normalized CSV.
+vehicle2_driver_date_of_birth,nan,base,2,UNK,Base column carried from normalized CSV.
+vehicle2_insurance_company,nan,base,35,UNK; unk.; Unknown,Base column carried from normalized CSV.
+vehicle2_policy_number,nan,base,38,UNK; unk; unk.,Base column carried from normalized CSV.
+vehicle2_company_naic_number,nan,base,44,UNK; unk.; Unknown,Base column carried from normalized CSV.
+vehicle2_policy_from,nan,base,4,UNK; 07/01/2023,Base column carried from normalized CSV.
+vehicle2_policy_to,nan,base,5,UNK; 07/28/2022; 07/01/2024,Base column carried from normalized CSV.
+vehicle2_additional_information_attached,nan,base,832,0,Base column carried from normalized CSV.
+party1_name,nan,base,4,Ghost vehicle damaged by debris from nearby crash. The nearby crash did not involve the Ghost vehicle. See narrative.; The vehicles involved suffered only cosmetic damage; UNK,Base column carried from normalized CSV.
+party1_address,nan,base,3,unk; 350 Pacific Ave; UNK,Base column carried from normalized CSV.
+party1_city,nan,base,4,unk; San Francisco; UNK,Base column carried from normalized CSV.
+party1_state,nan,base,33,un; CA,Base column carried from normalized CSV.
+party1_zip_code,nan,base,3,unk; 94111; 90291,Base column carried from normalized CSV.
+party1_injured,nan,base,832,0,Base column carried from normalized CSV.
+party1_deceased,nan,base,832,0,Base column carried from normalized CSV.
+party1_driver,nan,base,832,0,Base column carried from normalized CSV.
+party1_passenger,nan,base,832,0,Base column carried from normalized CSV.
+party1_bicyclist,nan,base,832,0,Base column carried from normalized CSV.
+party1_property,nan,base,832,0,Base column carried from normalized CSV.
+party2_name,nan,base,0,nan,Base column carried from normalized CSV.
+party2_address,nan,base,0,nan,Base column carried from normalized CSV.
+party2_city,nan,base,0,nan,Base column carried from normalized CSV.
+party2_state,nan,base,11,CA,Base column carried from normalized CSV.
+party2_zip_code,nan,base,0,nan,Base column carried from normalized CSV.
+party2_injured,nan,base,832,0,Base column carried from normalized CSV.
+party2_deceased,nan,base,832,0,Base column carried from normalized CSV.
+party2_driver,nan,base,832,0,Base column carried from normalized CSV.
+party2_passenger,nan,base,832,0,Base column carried from normalized CSV.
+party2_bicyclist,nan,base,832,0,Base column carried from normalized CSV.
+party2_property,nan,base,832,0,Base column carried from normalized CSV.
+property_damage_description,nan,base,8,Bicycle damage; vehicle damage; Vehicle - front left bumper and fender,Base column carried from normalized CSV.
+property_owner_name,nan,base,0,nan,Base column carried from normalized CSV.
+property_owner_phone,nan,base,0,nan,Base column carried from normalized CSV.
+property_owner_address,nan,base,2,Three Embarcadero Center; Lakeview Blvd & Gateway Blvd,Base column carried from normalized CSV.
+property_owner_city,nan,base,3,San; San Francisco; Fremont,Base column carried from normalized CSV.
+property_owner_state,nan,base,4,CA,Base column carried from normalized CSV.
+property_owner_zip_code,nan,base,2,94111.0; 94538.0,Base column carried from normalized CSV.
+witness1_name,nan,base,0,nan,Base column carried from normalized CSV.
+witness1_phone,nan,base,0,nan,Base column carried from normalized CSV.
+witness1_address,nan,base,0,nan,Base column carried from normalized CSV.
+witness1_city,nan,base,0,nan,Base column carried from normalized CSV.
+witness1_state,nan,base,21,CA,Base column carried from normalized CSV.
+witness1_zip_code,nan,base,0,nan,Base column carried from normalized CSV.
+witness2_name,nan,base,0,nan,Base column carried from normalized CSV.
+witness2_phone,nan,base,0,nan,Base column carried from normalized CSV.
+witness2_address,nan,base,0,nan,Base column carried from normalized CSV.
+witness2_city,nan,base,0,nan,Base column carried from normalized CSV.
+witness2_state,nan,base,11,CA,Base column carried from normalized CSV.
+witness2_zip_code,nan,base,0,nan,Base column carried from normalized CSV.
+section4_additional_information_attached,nan,base,832,0,Base column carried from normalized CSV.
+mode_autonomous,nan,base,832,0,Base column carried from normalized CSV.
+mode_conventional,nan,base,832,0,Base column carried from normalized CSV.
+mode_from_form,nan,base,0,nan,Base column carried from normalized CSV.
+mode_from_narrative,nan,base,743,conventional; autonomous; ambiguous,Base column carried from normalized CSV.
+mode_resolved,nan,base,743,conventional; autonomous; ambiguous,Base column carried from normalized CSV.
+narrative_text,nan,base,825,"A Cruise autonomous vehicle (“Cruise AV”), operating in conventional mode, was making a left turn from northeast bound Folsom Street onto northwest bound 11th Street when a scooterist, attempting to pass the Cruise AV on the left, made contact with the front left side of the Cruise AV, damaging the front left fender, radar, and wheel well of the Cruise AV.  The scooterist reported injuries and emergency services and the police arrived at the scene, but the scooterist declined medical treatment.  No police report was available at the time of the filing of this report.; On 01/10/19 at 2:52pm, an Aurora vehicle, while stopped at a red traffic light in manual mode on Townsend and 3rd, was struck in the rear bumber by a Honda CR-V approaching from behind. There was moderate damage to the Aurora vehicle's right sensor, mount, and side quarter panel. There was minimal damage to the Honda's front right bumper. Both vehicles were operational and pulled over on a side street to exchange vehicle and insurance information. No injuries were reported and no police were requested nor present at the scene.; A Cruise autonomous vehicle (“Cruise AV”), operating in autonomous mode, was traveling northbound on South Van Ness Street near the Howard Street fork when another vehicle, turning right onto South Van Ness from Howard, made contact with the right rear corner of the Cruise AV, causing damage to the Cruise AV’s rear bumper.  There were no injuries and police were not called.",Base column carried from normalized CSV.
+section5_additional_information_attached,nan,base,832,0; 1,Base column carried from normalized CSV.
+weather_vehicle1_codes,nan,base,813,A; B; C,Base column carried from normalized CSV.
+weather_vehicle1_labels,nan,base,813,clear; cloudy; raining,Base column carried from normalized CSV.
+weather_vehicle2_codes,nan,base,712,A; B; C,Base column carried from normalized CSV.
+weather_vehicle2_labels,nan,base,712,clear; cloudy; raining,Base column carried from normalized CSV.
+lighting_vehicle1_codes,nan,base,815,C; A; B,Base column carried from normalized CSV.
+lighting_vehicle1_labels,nan,base,815,dark_street_lights; daylight; dusk_dawn,Base column carried from normalized CSV.
+lighting_vehicle2_codes,nan,base,712,C; A; B,Base column carried from normalized CSV.
+lighting_vehicle2_labels,nan,base,712,dark_street_lights; daylight; dusk_dawn,Base column carried from normalized CSV.
+roadway_surface_vehicle1_codes,nan,base,788,A; B,Base column carried from normalized CSV.
+roadway_surface_vehicle1_labels,nan,base,788,dry; wet,Base column carried from normalized CSV.
+roadway_surface_vehicle2_codes,nan,base,685,A; B,Base column carried from normalized CSV.
+roadway_surface_vehicle2_labels,nan,base,685,dry; wet,Base column carried from normalized CSV.
+movement_vehicle1_codes,nan,base,815,E; A; B,Base column carried from normalized CSV.
+movement_vehicle1_labels,nan,base,815,making_left_turn; stopped; proceeding_straight,Base column carried from normalized CSV.
+movement_vehicle2_codes,nan,base,716,J; B; D,Base column carried from normalized CSV.
+movement_vehicle2_labels,nan,base,716,changing_lanes; proceeding_straight; making_right_turn,Base column carried from normalized CSV.
+road_conditions_vehicle1_codes,nan,base,777,H; D; E,Base column carried from normalized CSV.
+road_conditions_vehicle1_labels,nan,base,777,no_unusual_conditions; construction_repair_zone; reduced_roadway_width,Base column carried from normalized CSV.
+road_conditions_vehicle2_codes,nan,base,684,H; D; E; G,Base column carried from normalized CSV.
+road_conditions_vehicle2_labels,nan,base,684,no_unusual_conditions; construction_repair_zone; reduced_roadway_width; other,Base column carried from normalized CSV.
+collision_type_vehicle1_codes,nan,base,460,C; B; A,Base column carried from normalized CSV.
+collision_type_vehicle1_labels,nan,base,460,rear_end; side_swipe; head_on,Base column carried from normalized CSV.
+collision_type_vehicle2_codes,nan,base,656,B; A; C,Base column carried from normalized CSV.
+collision_type_vehicle2_labels,nan,base,656,side_swipe; head_on; rear_end,Base column carried from normalized CSV.
+collision_type_resolved_codes,nan,base,806,B; C; A; C,Base column carried from normalized CSV.
+collision_type_resolved_labels,nan,base,806,side_swipe; rear_end; head_on; rear_end,Base column carried from normalized CSV.
+other_associated_factor_labels,nan,base,0,nan,Base column carried from normalized CSV.
+other_cvc_sections_violated_cited,nan,base,31,no; yes,Base column carried from normalized CSV.
+other_defective_vehicle_equipment_cited,nan,base,10,no,Base column carried from normalized CSV.
+certifier_name_title,nan,base,808,"Kevin Chu, Director of AV Engineering; Chris Urmson, CEO; Matthew Salwasser, Program Manager",Base column carried from normalized CSV.
+certifier_phone,nan,base,6,415 335-4097; 650 667-9073,Base column carried from normalized CSV.
+date_signed,nan,base,697,3/13/2019; 03/18/2019; 01/31/2019,Base column carried from normalized CSV.
+manufacturer_std,nan,derived,826,Cruise; Aurora; Waymo,Standardized manufacturer/operator name.
+manufacturer_group_top10,nan,derived,826,Cruise; Other; Waymo,Top-operator bucket with remaining firms grouped as Other.
+accident_date_parsed,nan,derived,813,2019-01-07; 2019-01-10; 2019-01-26,Parsed accident date as ISO date string.
+accident_year,nan,derived,813,2019; 2020; 2021,Accident calendar year.
+accident_month,nan,derived,813,1; 2; 3,Accident calendar month.
+accident_day,nan,derived,813,7; 10; 26,Day of month.
+accident_weekday,nan,derived,813,0; 3; 5,Weekday number where Monday=0.
+accident_weekday_name,nan,derived,813,Monday; Thursday; Saturday,Weekday name derived from accident date.
+accident_quarter,nan,derived,813,1; 2; 3,Calendar quarter.
+is_weekend,nan,derived,832,0; 1,Whether the accident occurred on Saturday or Sunday.
+accident_hour,nan,derived,825,6; 2; 11,Hour extracted from accident time.
+accident_minute,nan,derived,825,54; 52; 29,Minute extracted from accident time.
+hour_bin,nan,derived,825,morning_peak; overnight; midday,Coarse hour bin for time-of-day analysis.
+is_night,nan,derived,832,0; 1,Night-time indicator based on accident hour.
+is_morning_peak,nan,derived,832,1; 0,Morning peak-hour indicator.
+is_evening_peak,nan,derived,832,0,Evening peak-hour indicator.
+mode_binary_autonomous,nan,derived,832,0; 1,1 if resolved mode is autonomous.
+mode_binary_conventional,nan,derived,832,1; 0,1 if resolved mode is conventional.
+mode_binary_ambiguous,nan,derived,832,0; 1,1 if resolved mode is ambiguous.
+vehicle1_damage_ordinal,nan,derived,824,2; 1; 3,Ordinal damage severity for vehicle 1.
+vehicle1_damage_moderate_or_worse,nan,derived,832,1; 0,1 if vehicle 1 damage is moderate or major.
+vehicle1_damage_minor_or_worse,nan,derived,832,1; 0,"1 if vehicle 1 damage is minor, moderate, or major."
+location_city_std,nan,derived,825,San Francisco; Mountain View; Los Altos,Standardized accident city.
+location_county_std,nan,derived,822,San Francisco; Santa Clara; Alameda,Standardized accident county.
+location_text,nan,derived,825,"Folsom St. and 11th St., San Francisco; Townsend and 3rd, San Francisco; S. Van Ness Ave between 12th St. and 13th St., San Francisco",Combined location address and city.
+location_near_keyword,nan,derived,832,0; 1,1 if the location text contains 'near'.
+location_at_keyword,nan,derived,832,0; 1,1 if the location text contains ' at '.
+location_and_keyword,nan,derived,832,1; 0,1 if the location text contains ' and '.
+location_is_intersection_like,nan,derived,832,1; 0,1 if the location text looks like an intersection reference.
+location_bay_area_flag,nan,derived,832,1; 0,1 if the collision occurred in common Bay Area cities/counties.
+location_los_angeles_flag,nan,derived,832,0; 1,1 if the collision occurred in Los Angeles.
+narrative_mentions_injury,narrative_text,regex_flag,832,1; 0,Regex-derived narrative indicator using pattern: reported injuries|complained of bodily injury|sought medical attention|transported to (?:a )?hospital|treated at (?:the )?scene|minor headache|neck stiffness|back pain|neck pain|reported injuries|reported injury|sustained injuries|was injured|were injured|fatal|deceased
+narrative_mentions_no_injury,narrative_text,regex_flag,832,1; 0,Regex-derived narrative indicator using pattern: no injuries? were reported|there were no injuries|no one was injured|neither party reported injuries?|no injuries? at the scene|no injuries? and police|declined medical treatment
+narrative_mentions_police,narrative_text,regex_flag,832,1; 0,Regex-derived narrative indicator using pattern: \bpolice\b|law enforcement
+narrative_mentions_no_police,narrative_text,regex_flag,832,1; 0,Regex-derived narrative indicator using pattern: \bpolice were not called\b|\bno police report\b
+narrative_mentions_ems,narrative_text,regex_flag,832,1; 0,Regex-derived narrative indicator using pattern: emergency services|ambulance|paramedic|medical treatment|hospital
+narrative_mentions_pedestrian,narrative_text,regex_flag,832,0; 1,Regex-derived narrative indicator using pattern: \bpedestrian\b
+narrative_mentions_bicyclist,narrative_text,regex_flag,832,0; 1,Regex-derived narrative indicator using pattern: \bbicycl(?:e|ist)\b
+narrative_mentions_scooter,narrative_text,regex_flag,832,1; 0,Regex-derived narrative indicator using pattern: \bscooter(?:ist)?\b
+narrative_mentions_motorcycle,narrative_text,regex_flag,832,0; 1,Regex-derived narrative indicator using pattern: \bmotorcycle|motorcyclist\b
+narrative_mentions_rear,narrative_text,regex_flag,832,0; 1,Regex-derived narrative indicator using pattern: rear[- ]end|struck .*rear|hit .*rear|rear bumper
+narrative_mentions_left_turn,narrative_text,regex_flag,832,1; 0,Regex-derived narrative indicator using pattern: left turn|turning left|making a left
+narrative_mentions_right_turn,narrative_text,regex_flag,832,0; 1,Regex-derived narrative indicator using pattern: right turn|turning right|making a right
+narrative_mentions_u_turn,narrative_text,regex_flag,832,0; 1,Regex-derived narrative indicator using pattern: u-turn|u turn
+narrative_mentions_lane_change,narrative_text,regex_flag,832,0; 1,Regex-derived narrative indicator using pattern: changing lanes|lane change
+narrative_mentions_merge,narrative_text,regex_flag,832,0; 1,Regex-derived narrative indicator using pattern: \bmerge|merging\b
+narrative_mentions_backing,narrative_text,regex_flag,832,0; 1,Regex-derived narrative indicator using pattern: \bbacking\b|\breversed\b|\breverse\b
+narrative_mentions_parked,narrative_text,regex_flag,832,0; 1,Regex-derived narrative indicator using pattern: \bparked\b|parking garage|parking lot|pulling out of parking
+narrative_mentions_stopped,narrative_text,regex_flag,832,0; 1,Regex-derived narrative indicator using pattern: \bstopped\b|stop(?:ped)? at
+narrative_mentions_red_light,narrative_text,regex_flag,832,0; 1,Regex-derived narrative indicator using pattern: red light
+narrative_mentions_green_light,narrative_text,regex_flag,832,0; 1,Regex-derived narrative indicator using pattern: green light
+narrative_mentions_intersection,narrative_text,regex_flag,832,1; 0,Regex-derived narrative indicator using pattern: \bintersection\b|\b at \b| and 
+narrative_mentions_entered_lane,narrative_text,regex_flag,832,0; 1,Regex-derived narrative indicator using pattern: entered .*lane|into the .*lane|cut in
+narrative_mentions_crosswalk,narrative_text,regex_flag,832,0; 1,Regex-derived narrative indicator using pattern: \bcrosswalk\b
+narrative_mentions_parking_garage,narrative_text,regex_flag,832,0; 1,Regex-derived narrative indicator using pattern: parking garage
+vru_any,nan,derived,832,1; 0,1 if the report suggests any vulnerable road user involvement.
+narrative_char_count,nan,derived,832,573; 532; 376,Character count of the narrative text.
+narrative_word_count,nan,derived,832,95; 90; 62,Word count of the narrative text.
+injury_text_signal,nan,derived,408,1; 0,"Narrative-derived weak label: 1 injury mentioned, 0 explicit no injury, blank otherwise."
+collision_type__broadside,collision_type_resolved_labels,multi_hot,832,0; 1,Indicator that 'broadside' was selected in collision_type_resolved_labels.
+collision_type__head_on,collision_type_resolved_labels,multi_hot,832,0; 1,Indicator that 'head_on' was selected in collision_type_resolved_labels.
+collision_type__hit_object,collision_type_resolved_labels,multi_hot,832,0; 1,Indicator that 'hit_object' was selected in collision_type_resolved_labels.
+collision_type__other,collision_type_resolved_labels,multi_hot,832,0; 1,Indicator that 'other' was selected in collision_type_resolved_labels.
+collision_type__overturned,collision_type_resolved_labels,multi_hot,832,0; 1,Indicator that 'overturned' was selected in collision_type_resolved_labels.
+collision_type__rear_end,collision_type_resolved_labels,multi_hot,832,0; 1,Indicator that 'rear_end' was selected in collision_type_resolved_labels.
+collision_type__side_swipe,collision_type_resolved_labels,multi_hot,832,1; 0,Indicator that 'side_swipe' was selected in collision_type_resolved_labels.
+collision_type__vehicle_pedestrian,collision_type_resolved_labels,multi_hot,832,0; 1,Indicator that 'vehicle_pedestrian' was selected in collision_type_resolved_labels.
+weather_v1__clear,weather_vehicle1_labels,multi_hot,832,1; 0,Indicator that 'clear' was selected in weather_vehicle1_labels.
+weather_v1__cloudy,weather_vehicle1_labels,multi_hot,832,0; 1,Indicator that 'cloudy' was selected in weather_vehicle1_labels.
+weather_v1__fog_or_visibility,weather_vehicle1_labels,multi_hot,832,0; 1,Indicator that 'fog_or_visibility' was selected in weather_vehicle1_labels.
+weather_v1__other,weather_vehicle1_labels,multi_hot,832,0; 1,Indicator that 'other' was selected in weather_vehicle1_labels.
+weather_v1__raining,weather_vehicle1_labels,multi_hot,832,0; 1,Indicator that 'raining' was selected in weather_vehicle1_labels.
+weather_v2__clear,weather_vehicle2_labels,multi_hot,832,1; 0,Indicator that 'clear' was selected in weather_vehicle2_labels.
+weather_v2__cloudy,weather_vehicle2_labels,multi_hot,832,0; 1,Indicator that 'cloudy' was selected in weather_vehicle2_labels.
+weather_v2__fog_or_visibility,weather_vehicle2_labels,multi_hot,832,0; 1,Indicator that 'fog_or_visibility' was selected in weather_vehicle2_labels.
+weather_v2__other,weather_vehicle2_labels,multi_hot,832,0; 1,Indicator that 'other' was selected in weather_vehicle2_labels.
+weather_v2__raining,weather_vehicle2_labels,multi_hot,832,0; 1,Indicator that 'raining' was selected in weather_vehicle2_labels.
+lighting_v1__dark_no_street_lights,lighting_vehicle1_labels,multi_hot,832,0; 1,Indicator that 'dark_no_street_lights' was selected in lighting_vehicle1_labels.
+lighting_v1__dark_street_lights,lighting_vehicle1_labels,multi_hot,832,1; 0,Indicator that 'dark_street_lights' was selected in lighting_vehicle1_labels.
+lighting_v1__dark_street_lights_not_functioning,lighting_vehicle1_labels,multi_hot,832,0; 1,Indicator that 'dark_street_lights_not_functioning' was selected in lighting_vehicle1_labels.
+lighting_v1__daylight,lighting_vehicle1_labels,multi_hot,832,0; 1,Indicator that 'daylight' was selected in lighting_vehicle1_labels.
+lighting_v1__dusk_dawn,lighting_vehicle1_labels,multi_hot,832,0; 1,Indicator that 'dusk_dawn' was selected in lighting_vehicle1_labels.
+lighting_v2__dark_no_street_lights,lighting_vehicle2_labels,multi_hot,832,0; 1,Indicator that 'dark_no_street_lights' was selected in lighting_vehicle2_labels.
+lighting_v2__dark_street_lights,lighting_vehicle2_labels,multi_hot,832,1; 0,Indicator that 'dark_street_lights' was selected in lighting_vehicle2_labels.
+lighting_v2__dark_street_lights_not_functioning,lighting_vehicle2_labels,multi_hot,832,0; 1,Indicator that 'dark_street_lights_not_functioning' was selected in lighting_vehicle2_labels.
+lighting_v2__daylight,lighting_vehicle2_labels,multi_hot,832,0; 1,Indicator that 'daylight' was selected in lighting_vehicle2_labels.
+lighting_v2__dusk_dawn,lighting_vehicle2_labels,multi_hot,832,0; 1,Indicator that 'dusk_dawn' was selected in lighting_vehicle2_labels.
+roadway_surface_v1__dry,roadway_surface_vehicle1_labels,multi_hot,832,1; 0,Indicator that 'dry' was selected in roadway_surface_vehicle1_labels.
+roadway_surface_v1__wet,roadway_surface_vehicle1_labels,multi_hot,832,0; 1,Indicator that 'wet' was selected in roadway_surface_vehicle1_labels.
+roadway_surface_v2__dry,roadway_surface_vehicle2_labels,multi_hot,832,1; 0,Indicator that 'dry' was selected in roadway_surface_vehicle2_labels.
+roadway_surface_v2__wet,roadway_surface_vehicle2_labels,multi_hot,832,0; 1,Indicator that 'wet' was selected in roadway_surface_vehicle2_labels.
+movement_v1__backing,movement_vehicle1_labels,multi_hot,832,0; 1,Indicator that 'backing' was selected in movement_vehicle1_labels.
+movement_v1__changing_lanes,movement_vehicle1_labels,multi_hot,832,0; 1,Indicator that 'changing_lanes' was selected in movement_vehicle1_labels.
+movement_v1__crossing_into_opposing_lane,movement_vehicle1_labels,multi_hot,832,0; 1,Indicator that 'crossing_into_opposing_lane' was selected in movement_vehicle1_labels.
+movement_v1__entering_traffic,movement_vehicle1_labels,multi_hot,832,0; 1,Indicator that 'entering_traffic' was selected in movement_vehicle1_labels.
+movement_v1__making_left_turn,movement_vehicle1_labels,multi_hot,832,1; 0,Indicator that 'making_left_turn' was selected in movement_vehicle1_labels.
+movement_v1__making_right_turn,movement_vehicle1_labels,multi_hot,832,0; 1,Indicator that 'making_right_turn' was selected in movement_vehicle1_labels.
+movement_v1__making_u_turn,movement_vehicle1_labels,multi_hot,832,0; 1,Indicator that 'making_u_turn' was selected in movement_vehicle1_labels.
+movement_v1__merging,movement_vehicle1_labels,multi_hot,832,0; 1,Indicator that 'merging' was selected in movement_vehicle1_labels.
+movement_v1__other,movement_vehicle1_labels,multi_hot,832,0; 1,Indicator that 'other' was selected in movement_vehicle1_labels.
+movement_v1__parked,movement_vehicle1_labels,multi_hot,832,0; 1,Indicator that 'parked' was selected in movement_vehicle1_labels.
+movement_v1__parking_maneuver,movement_vehicle1_labels,multi_hot,832,0; 1,Indicator that 'parking_maneuver' was selected in movement_vehicle1_labels.
+movement_v1__passing_other_vehicle,movement_vehicle1_labels,multi_hot,832,0; 1,Indicator that 'passing_other_vehicle' was selected in movement_vehicle1_labels.
+movement_v1__proceeding_straight,movement_vehicle1_labels,multi_hot,832,0; 1,Indicator that 'proceeding_straight' was selected in movement_vehicle1_labels.
+movement_v1__slowing_stopping,movement_vehicle1_labels,multi_hot,832,0; 1,Indicator that 'slowing_stopping' was selected in movement_vehicle1_labels.
+movement_v1__stopped,movement_vehicle1_labels,multi_hot,832,0; 1,Indicator that 'stopped' was selected in movement_vehicle1_labels.
+movement_v2__backing,movement_vehicle2_labels,multi_hot,832,0; 1,Indicator that 'backing' was selected in movement_vehicle2_labels.
+movement_v2__changing_lanes,movement_vehicle2_labels,multi_hot,832,1; 0,Indicator that 'changing_lanes' was selected in movement_vehicle2_labels.
+movement_v2__crossing_into_opposing_lane,movement_vehicle2_labels,multi_hot,832,0; 1,Indicator that 'crossing_into_opposing_lane' was selected in movement_vehicle2_labels.
+movement_v2__entering_traffic,movement_vehicle2_labels,multi_hot,832,0; 1,Indicator that 'entering_traffic' was selected in movement_vehicle2_labels.
+movement_v2__making_left_turn,movement_vehicle2_labels,multi_hot,832,0; 1,Indicator that 'making_left_turn' was selected in movement_vehicle2_labels.
+movement_v2__making_right_turn,movement_vehicle2_labels,multi_hot,832,0; 1,Indicator that 'making_right_turn' was selected in movement_vehicle2_labels.
+movement_v2__making_u_turn,movement_vehicle2_labels,multi_hot,832,0; 1,Indicator that 'making_u_turn' was selected in movement_vehicle2_labels.
+movement_v2__merging,movement_vehicle2_labels,multi_hot,832,0; 1,Indicator that 'merging' was selected in movement_vehicle2_labels.
+movement_v2__other,movement_vehicle2_labels,multi_hot,832,0; 1,Indicator that 'other' was selected in movement_vehicle2_labels.
+movement_v2__other_unsafe_turning,movement_vehicle2_labels,multi_hot,832,0; 1,Indicator that 'other_unsafe_turning' was selected in movement_vehicle2_labels.
+movement_v2__parked,movement_vehicle2_labels,multi_hot,832,0; 1,Indicator that 'parked' was selected in movement_vehicle2_labels.
+movement_v2__parking_maneuver,movement_vehicle2_labels,multi_hot,832,0; 1,Indicator that 'parking_maneuver' was selected in movement_vehicle2_labels.
+movement_v2__passing_other_vehicle,movement_vehicle2_labels,multi_hot,832,0; 1,Indicator that 'passing_other_vehicle' was selected in movement_vehicle2_labels.
+movement_v2__proceeding_straight,movement_vehicle2_labels,multi_hot,832,0; 1,Indicator that 'proceeding_straight' was selected in movement_vehicle2_labels.
+movement_v2__ran_off_road,movement_vehicle2_labels,multi_hot,832,0; 1,Indicator that 'ran_off_road' was selected in movement_vehicle2_labels.
+movement_v2__slowing_stopping,movement_vehicle2_labels,multi_hot,832,0; 1,Indicator that 'slowing_stopping' was selected in movement_vehicle2_labels.
+movement_v2__stopped,movement_vehicle2_labels,multi_hot,832,0; 1,Indicator that 'stopped' was selected in movement_vehicle2_labels.
+movement_v2__traveling_wrong_way,movement_vehicle2_labels,multi_hot,832,0; 1,Indicator that 'traveling_wrong_way' was selected in movement_vehicle2_labels.
+road_conditions_v1__construction_repair_zone,road_conditions_vehicle1_labels,multi_hot,832,0; 1,Indicator that 'construction_repair_zone' was selected in road_conditions_vehicle1_labels.
+road_conditions_v1__holes_deep_rut,road_conditions_vehicle1_labels,multi_hot,832,0; 1,Indicator that 'holes_deep_rut' was selected in road_conditions_vehicle1_labels.
+road_conditions_v1__loose_material_on_roadway,road_conditions_vehicle1_labels,multi_hot,832,0; 1,Indicator that 'loose_material_on_roadway' was selected in road_conditions_vehicle1_labels.
+road_conditions_v1__no_unusual_conditions,road_conditions_vehicle1_labels,multi_hot,832,1; 0,Indicator that 'no_unusual_conditions' was selected in road_conditions_vehicle1_labels.
+road_conditions_v1__obstruction_on_roadway,road_conditions_vehicle1_labels,multi_hot,832,0; 1,Indicator that 'obstruction_on_roadway' was selected in road_conditions_vehicle1_labels.
+road_conditions_v1__other,road_conditions_vehicle1_labels,multi_hot,832,0; 1,Indicator that 'other' was selected in road_conditions_vehicle1_labels.
+road_conditions_v1__reduced_roadway_width,road_conditions_vehicle1_labels,multi_hot,832,0; 1,Indicator that 'reduced_roadway_width' was selected in road_conditions_vehicle1_labels.
+road_conditions_v2__construction_repair_zone,road_conditions_vehicle2_labels,multi_hot,832,0; 1,Indicator that 'construction_repair_zone' was selected in road_conditions_vehicle2_labels.
+road_conditions_v2__loose_material_on_roadway,road_conditions_vehicle2_labels,multi_hot,832,0; 1,Indicator that 'loose_material_on_roadway' was selected in road_conditions_vehicle2_labels.
+road_conditions_v2__no_unusual_conditions,road_conditions_vehicle2_labels,multi_hot,832,1; 0,Indicator that 'no_unusual_conditions' was selected in road_conditions_vehicle2_labels.
+road_conditions_v2__other,road_conditions_vehicle2_labels,multi_hot,832,0; 1,Indicator that 'other' was selected in road_conditions_vehicle2_labels.
+road_conditions_v2__reduced_roadway_width,road_conditions_vehicle2_labels,multi_hot,832,0; 1,Indicator that 'reduced_roadway_width' was selected in road_conditions_vehicle2_labels.
+damage_zone_v1__front_bumper,vehicle1_damage_zones,multi_hot,832,0; 1,Indicator that 'front_bumper' was selected in vehicle1_damage_zones.
+damage_zone_v1__front_driver_side_1,vehicle1_damage_zones,multi_hot,832,1; 0,Indicator that 'front_driver_side_1' was selected in vehicle1_damage_zones.
+damage_zone_v1__front_driver_side_2,vehicle1_damage_zones,multi_hot,832,0; 1,Indicator that 'front_driver_side_2' was selected in vehicle1_damage_zones.
+damage_zone_v1__front_driver_side_3,vehicle1_damage_zones,multi_hot,832,1; 0,Indicator that 'front_driver_side_3' was selected in vehicle1_damage_zones.
+damage_zone_v1__front_driver_side_4,vehicle1_damage_zones,multi_hot,832,0; 1,Indicator that 'front_driver_side_4' was selected in vehicle1_damage_zones.
+damage_zone_v1__front_passenger_side_1,vehicle1_damage_zones,multi_hot,832,0; 1,Indicator that 'front_passenger_side_1' was selected in vehicle1_damage_zones.
+damage_zone_v1__front_passenger_side_2,vehicle1_damage_zones,multi_hot,832,0; 1,Indicator that 'front_passenger_side_2' was selected in vehicle1_damage_zones.
+damage_zone_v1__front_passenger_side_3,vehicle1_damage_zones,multi_hot,832,0; 1,Indicator that 'front_passenger_side_3' was selected in vehicle1_damage_zones.
+damage_zone_v1__front_passenger_side_4,vehicle1_damage_zones,multi_hot,832,0; 1,Indicator that 'front_passenger_side_4' was selected in vehicle1_damage_zones.
+damage_zone_v1__left_front_corner_1,vehicle1_damage_zones,multi_hot,832,1; 0,Indicator that 'left_front_corner_1' was selected in vehicle1_damage_zones.
+damage_zone_v1__left_front_corner_2,vehicle1_damage_zones,multi_hot,832,0; 1,Indicator that 'left_front_corner_2' was selected in vehicle1_damage_zones.
+damage_zone_v1__left_front_corner_3,vehicle1_damage_zones,multi_hot,832,0; 1,Indicator that 'left_front_corner_3' was selected in vehicle1_damage_zones.
+damage_zone_v1__left_rear_1,vehicle1_damage_zones,multi_hot,832,0; 1,Indicator that 'left_rear_1' was selected in vehicle1_damage_zones.
+damage_zone_v1__left_rear_2,vehicle1_damage_zones,multi_hot,832,0; 1,Indicator that 'left_rear_2' was selected in vehicle1_damage_zones.
+damage_zone_v1__left_rear_3,vehicle1_damage_zones,multi_hot,832,0; 1,Indicator that 'left_rear_3' was selected in vehicle1_damage_zones.
+damage_zone_v1__left_rear_passenger_1,vehicle1_damage_zones,multi_hot,832,0; 1,Indicator that 'left_rear_passenger_1' was selected in vehicle1_damage_zones.
+damage_zone_v1__left_rear_passenger_3,vehicle1_damage_zones,multi_hot,832,0; 1,Indicator that 'left_rear_passenger_3' was selected in vehicle1_damage_zones.
+damage_zone_v1__left_rear_passenger_4,vehicle1_damage_zones,multi_hot,832,0; 1,Indicator that 'left_rear_passenger_4' was selected in vehicle1_damage_zones.
+damage_zone_v1__rear_bumper,vehicle1_damage_zones,multi_hot,832,0; 1,Indicator that 'rear_bumper' was selected in vehicle1_damage_zones.
+damage_zone_v1__right_front_corner_1,vehicle1_damage_zones,multi_hot,832,0; 1,Indicator that 'right_front_corner_1' was selected in vehicle1_damage_zones.
+damage_zone_v1__right_front_corner_2,vehicle1_damage_zones,multi_hot,832,0; 1,Indicator that 'right_front_corner_2' was selected in vehicle1_damage_zones.
+damage_zone_v1__right_front_corner_3,vehicle1_damage_zones,multi_hot,832,0; 1,Indicator that 'right_front_corner_3' was selected in vehicle1_damage_zones.
+damage_zone_v1__right_rear_1,vehicle1_damage_zones,multi_hot,832,0; 1,Indicator that 'right_rear_1' was selected in vehicle1_damage_zones.
+damage_zone_v1__right_rear_2,vehicle1_damage_zones,multi_hot,832,0; 1,Indicator that 'right_rear_2' was selected in vehicle1_damage_zones.
+damage_zone_v1__right_rear_3,vehicle1_damage_zones,multi_hot,832,0; 1,Indicator that 'right_rear_3' was selected in vehicle1_damage_zones.
+damage_zone_v1__right_rear_passenger_2,vehicle1_damage_zones,multi_hot,832,0; 1,Indicator that 'right_rear_passenger_2' was selected in vehicle1_damage_zones.
+damage_zone_v1__right_rear_passenger_3,vehicle1_damage_zones,multi_hot,832,0; 1,Indicator that 'right_rear_passenger_3' was selected in vehicle1_damage_zones.
+damage_zone_v1__right_rear_passenger_4,vehicle1_damage_zones,multi_hot,832,0; 1,Indicator that 'right_rear_passenger_4' was selected in vehicle1_damage_zones.

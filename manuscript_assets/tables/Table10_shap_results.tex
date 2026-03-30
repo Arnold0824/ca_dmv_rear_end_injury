@@ -1,0 +1,17 @@
+\begin{table}[H]
+\centering
+\caption{SHAP analysis: model performance and selected 2$\times$2 interaction-cell magnitudes.}
+\label{tab:shap_results}
+\scriptsize
+\renewcommand{\arraystretch}{1.08}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{p{2.8cm}ccccc}
+\toprule
+Variant & CV AUC & CV acc. & \shortstack[c]{Rear-end $\times$\\ autonomous} & \shortstack[c]{Rear-end $\times$\\ stopped cue} & \shortstack[c]{Rear-end $\times$\\ expanded stop} \\
+\midrule
+Scene-only & 0.606 & 0.585 & 0.077 & 0.058 & -- \\
+Scene + mechanism & 0.572 & 0.579 & 0.076 & 0.039 & 0.031 \\
+Scene + mechanism + operator & 0.665 & 0.615 & 0.059 & 0.036 & 0.008 \\
+\bottomrule
+\end{tabular}
+\end{table}

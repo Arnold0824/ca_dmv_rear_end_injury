@@ -1,0 +1,20 @@
+\begin{table}[H]
+\centering
+\caption{Robustness and explainability protocol.}
+\label{tab:robustness_protocol}
+\scriptsize
+\renewcommand{\arraystretch}{1.08}
+\begin{tabular}{p{3.1cm}p{2.6cm}p{6.4cm}}
+\toprule
+Component & Scope & Purpose \\
+\midrule
+Stopped-only subgroup model & n = 220 and n = 120 by subgroup & Checks whether the interaction is concentrated in stopped traffic rather than spread uniformly. \\
+Bootstrap interaction stability & 300 replications & Quantifies how often the centered rear-end × autonomous interaction remains positive under resampling. \\
+Leave-one-operator-out & Top 6 operators & Assesses sensitivity of the main interaction to operator mix and deployment style. \\
+Scene-only LightGBM & 5-fold stratified CV & Provides a non-linear benchmark without operator identifiers. \\
+Scene + mechanism LightGBM & 5-fold stratified CV & Tests whether finer regex-derived stop and rear-end mechanism cues add explanatory value. \\
+Scene + mechanism + operator LightGBM & 5-fold stratified CV & Tests whether operator features still dominate once richer text mechanisms are introduced. \\
+Deep SHAP diagnostics & Dependence summaries and local cases & Audits whether global importance, feature dependence, and case-level explanations tell a coherent mechanism story. \\
+\bottomrule
+\end{tabular}
+\end{table}

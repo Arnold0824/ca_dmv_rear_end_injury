@@ -1,0 +1,13 @@
+variant,metric,value
+scene_only,cv_auc_mean,0.6014300531414316
+scene_only,cv_auc_sd,0.08953419417511878
+scene_only,cv_accuracy_mean,0.5676470588235294
+scene_only,cv_accuracy_sd,0.052283496572444646
+scene_only,cv_average_precision_mean,0.47821022531521873
+scene_only,cv_average_precision_sd,0.09415174553340526
+scene_plus_operator,cv_auc_mean,0.6731279358938933
+scene_plus_operator,cv_auc_sd,0.06779784347257573
+scene_plus_operator,cv_accuracy_mean,0.6058823529411764
+scene_plus_operator,cv_accuracy_sd,0.04956558690103742
+scene_plus_operator,cv_average_precision_mean,0.4734196367190825
+scene_plus_operator,cv_average_precision_sd,0.0913707828579193

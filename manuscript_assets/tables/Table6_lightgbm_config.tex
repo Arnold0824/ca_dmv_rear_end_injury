@@ -1,0 +1,16 @@
+\begin{table}[H]
+\centering
+\caption{Secondary LightGBM variants used in the explanation layer.}
+\label{tab:lightgbm_config}
+\scriptsize
+\renewcommand{\arraystretch}{1.08}
+\begin{tabular}{p{2.8cm}p{5.2cm}p{5.2cm}}
+\toprule
+Variant & Feature blocks & Validation and explanation outputs \\
+\midrule
+Scene-only & Scene, mode, rear-end, stopped, maneuver, signal, and VRU features & 5-fold stratified CV; SHAP importance, pairwise interactions, dependence summaries, and local cases \\
+Scene + mechanism & Scene-only block plus regex-derived stop, signal, braking, yielding, and rear-strike mechanism cues & 5-fold stratified CV; SHAP importance, pairwise interactions, dependence summaries, and local cases \\
+Scene + mechanism + operator & Scene + mechanism block plus Cruise, Waymo, and Zoox dummies & 5-fold stratified CV; SHAP importance, pairwise interactions, dependence summaries, and local cases \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,8 @@
+pandas==2.2.2
+numpy==2.4.3
+statsmodels==0.14.6
+matplotlib==3.9.2
+PyMuPDF==1.27.2
+lightgbm==4.6.0
+shap==0.51.0
+openpyxl==3.1.5

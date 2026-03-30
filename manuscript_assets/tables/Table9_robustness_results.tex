@@ -1,0 +1,18 @@
+\begin{table}[H]
+\centering
+\caption{Robustness summary for the focal interaction.}
+\label{tab:robustness_results}
+\scriptsize
+\renewcommand{\arraystretch}{1.08}
+\begin{tabular}{p{3.8cm}p{2.5cm}p{2.1cm}p{4.8cm}}
+\toprule
+Check & Statistic & $p$ or share & Interpretation \\
+\midrule
+Stopped subgroup only & 2.075 & 0.0218 & Interaction significant in stopped-traffic subset. \\
+Non-stopped subgroup only & 1.019 & 0.1957 & Interaction not significant outside stopped context. \\
+Bootstrap 2.5\% / 50\% / 97.5\% & 0.095 / 1.222 / 2.415 & 0.983 & Share of positive bootstrap coefficients. \\
+Leave out Cruise & 0.877 & 0.2101 & Largest weakening of the focal interaction. \\
+Leave out other major operators & 1.142 & 0.0159--0.0505 & Interaction usually remains at or near significance. \\
+\bottomrule
+\end{tabular}
+\end{table}

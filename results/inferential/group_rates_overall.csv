@@ -1,0 +1,5 @@
+mode_resolved,rear_end,injury_rate,injury_count,sample_size
+autonomous,0,0.2823529411764706,24,85
+autonomous,1,0.37606837606837606,44,117
+conventional,0,0.3253012048192771,27,83
+conventional,1,0.2545454545454545,14,55

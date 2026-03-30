@@ -1,0 +1,553 @@
+column_name,layer,raw_field_name,field_type,coverage_count,non_empty_count,positive_count,example_values,description
+title,manifest,nan,text,832,832,,"GM Cruise January 7, 2019 (PDF); Aurora Innovation January 10, 2019 (PDF); GM Cruise January 10, 2019 (PDF)",Title text shown on the DMV collision reports page.
+manufacturer,manifest,nan,text,831,831,,GM Cruise; Aurora Innovation; GM Cruise,Manufacturer parsed from the DMV page link text.
+report_date,manifest,nan,text,832,832,,2019-01-07; 2019-01-10; 2019-01-10,Report date parsed from the DMV page link text.
+year_folder,manifest,nan,text,832,832,,2019; 2019; 2019,Year folder used when downloading PDFs.
+page_url,manifest,nan,text,832,832,,https://www.dmv.ca.gov/portal/file/gm-cruise-collision-report-january-7-2019-pdf/; https://www.dmv.ca.gov/portal/file/aurora-innovation-collision-report-january-10-2019-pdf/; https://www.dmv.ca.gov/portal/file/gm-cruise-collision-report-january-10-2019-pdf/,Original DMV page URL for the PDF.
+slug,manifest,nan,text,832,832,,gm-cruise-collision-report-january-7-2019-pdf; aurora-innovation-collision-report-january-10-2019-pdf; gm-cruise-collision-report-january-10-2019-pdf,Slug derived from the DMV page URL.
+local_path,manifest,nan,text,832,832,,reports/2019/gm-cruise-collision-report-january-7-2019-pdf.pdf; reports/2019/aurora-innovation-collision-report-january-10-2019-pdf.pdf; reports/2019/gm-cruise-collision-report-january-10-2019-pdf.pdf,Relative path to the mirrored PDF file.
+raw_0,raw_widget,0,Text,2,1,0.0,05/14/1992,Raw PDF widget '0' extracted from the OL 316 form.
+raw_additional_information_attached,raw_widget,additional information attached,CheckBox,826,826,0.0,0,Raw PDF widget 'additional information attached' extracted from the OL 316 form.
+raw_additional_information_attached_2,raw_widget,additional information attached_2,CheckBox,826,826,0.0,0,Raw PDF widget 'additional information attached_2' extracted from the OL 316 form.
+raw_additional_information_attached_3,raw_widget,additional information attached_3,CheckBox,826,826,4.0,0; 1,Raw PDF widget 'additional information attached_3' extracted from the OL 316 form.
+raw_address,raw_widget,ADDRESS,Text,826,8,0.0,unk; NA; N/A,Raw PDF widget 'ADDRESS' extracted from the OL 316 form.
+raw_address_2_0,raw_widget,ADDRESS_2.0,Text,826,5,0.0,NA; N/A,Raw PDF widget 'ADDRESS_2.0' extracted from the OL 316 form.
+raw_address_2_1_0_0,raw_widget,ADDRESS_2.1.0.0,Text,826,5,0.0,NA; N/A,Raw PDF widget 'ADDRESS_2.1.0.0' extracted from the OL 316 form.
+raw_address_2_1_0_1,raw_widget,ADDRESS_2.1.0.1,Text,826,825,0.0,"A Cruise autonomous vehicle (“Cruise AV”), operating in conventional mode, was making a left turn from northeast bound Folsom Street onto northwest bound 11th Street when a scooterist, attempting to pass the Cruise AV on the left, made contact with the front left side of the Cruise AV, damaging the front left fender, radar, and wheel well of the Cruise AV.  The scooterist reported injuries and emergency services and the police arrived at the scene, but the scooterist declined medical treatment.  No police report was available at the time of the filing of this report.; On 01/10/19 at 2:52pm, an Aurora vehicle, while stopped at a red traffic light in manual mode on Townsend and 3rd, was struck in the rear bumber by a Honda CR-V approaching from behind. There was moderate damage to the Aurora vehicle's right sensor, mount, and side quarter panel. There was minimal damage to the Honda's front right bumper. Both vehicles were operational and pulled over on a side street to exchange vehicle and insurance information. No injuries were reported and no police were requested nor present at the scene.; A Cruise autonomous vehicle (“Cruise AV”), operating in autonomous mode, was traveling northbound on South Van Ness Street near the Howard Street fork when another vehicle, turning right onto South Van Ness from Howard, made contact with the right rear corner of the Cruise AV, causing damage to the Cruise AV’s rear bumper.  There were no injuries and police were not called.",Raw PDF widget 'ADDRESS_2.1.0.1' extracted from the OL 316 form.
+raw_address_2_1_1_0,raw_widget,ADDRESS_2.1.1.0,Text,826,7,0.0,NA; N/A; Three Embarcadero Center,Raw PDF widget 'ADDRESS_2.1.1.0' extracted from the OL 316 form.
+raw_address_2_1_1_1,raw_widget,ADDRESS_2.1.1.1,Text,826,5,0.0,NA; N/A,Raw PDF widget 'ADDRESS_2.1.1.1' extracted from the OL 316 form.
+raw_am,raw_widget,AM,CheckBox,826,826,0.0,0,Raw PDF widget 'AM' extracted from the OL 316 form.
+raw_autonomous_mode,raw_widget,Autonomous Mode,CheckBox,826,826,0.0,0,Raw PDF widget 'Autonomous Mode' extracted from the OL 316 form.
+raw_avt_number_2,raw_widget,AVT NuMBER_2,Text,826,9,0.0,AVT; 003; AVDT004,Raw PDF widget 'AVT NuMBER_2' extracted from the OL 316 form.
+raw_b_vision_obscurement_checkbox,raw_widget,B VISION OBSCUREMENT CHECKBOX,CheckBox,7,7,0.0,0,Raw PDF widget 'B VISION OBSCUREMENT CHECKBOX' extracted from the OL 316 form.
+raw_bicyclist,raw_widget,Bicyclist,CheckBox,826,826,0.0,0,Raw PDF widget 'Bicyclist' extracted from the OL 316 form.
+raw_bicyclist_2,raw_widget,Bicyclist_2,CheckBox,826,826,0.0,0,Raw PDF widget 'Bicyclist_2' extracted from the OL 316 form.
+raw_bicyclist_3,raw_widget,Bicyclist_3,CheckBox,826,826,0.0,0,Raw PDF widget 'Bicyclist_3' extracted from the OL 316 form.
+raw_bicyclist_4,raw_widget,Bicyclist_4,CheckBox,826,826,0.0,0,Raw PDF widget 'Bicyclist_4' extracted from the OL 316 form.
+raw_business_name,raw_widget,BuSINESS NAME,Text,826,824,0.0,Cruise; Aurora Innovation Inc; Waymo LLC,Raw PDF widget 'BuSINESS NAME' extracted from the OL 316 form.
+raw_city,raw_widget,CITY,Text,826,9,0.0,unk; NA; N/A,Raw PDF widget 'CITY' extracted from the OL 316 form.
+raw_city_2,raw_widget,City,Text,7,1,0.0,San Jose,Raw PDF widget 'City' extracted from the OL 316 form.
+raw_city_2_0,raw_widget,CITY_2.0,Text,826,5,0.0,NA; N/A,Raw PDF widget 'CITY_2.0' extracted from the OL 316 form.
+raw_city_2_1_0,raw_widget,CITY_2.1.0,Text,826,5,0.0,NA; N/A,Raw PDF widget 'CITY_2.1.0' extracted from the OL 316 form.
+raw_city_2_1_1_0,raw_widget,CITY_2.1.1.0,Text,826,8,0.0,NA; N/A; San,Raw PDF widget 'CITY_2.1.1.0' extracted from the OL 316 form.
+raw_city_2_1_1_1,raw_widget,CITY_2.1.1.1,Text,826,5,0.0,NA; N/A,Raw PDF widget 'CITY_2.1.1.1' extracted from the OL 316 form.
+raw_company_naic_number,raw_widget,COMPANY NAIC NuMBER,Text,826,1,0.0,24147,Raw PDF widget 'COMPANY NAIC NuMBER' extracted from the OL 316 form.
+raw_company_naic_number_2,raw_widget,COMPANY NAIC NuMBER_2,Text,826,45,0.0,UNK; unk.; Unknown,Raw PDF widget 'COMPANY NAIC NuMBER_2' extracted from the OL 316 form.
+raw_conventional_mode,raw_widget,Conventional Mode,CheckBox,826,826,0.0,0,Raw PDF widget 'Conventional Mode' extracted from the OL 316 form.
+raw_cvc_sections_checkbox_no,raw_widget,CVC SECTIONS CHECKBOX NO,CheckBox,7,7,1.0,1; 0,Raw PDF widget 'CVC SECTIONS CHECKBOX NO' extracted from the OL 316 form.
+raw_cvc_sections_checkbox_yes,raw_widget,CVC SECTIONS CHECKBOX YES,CheckBox,7,7,0.0,0,Raw PDF widget 'CVC SECTIONS CHECKBOX YES' extracted from the OL 316 form.
+raw_date_of_accident,raw_widget,DATE Of ACCIDENT,Text,826,826,0.0,01/07/2019; 01/10/2019; 01/26/2019,Raw PDF widget 'DATE Of ACCIDENT' extracted from the OL 316 form.
+raw_date_of_birth_0,raw_widget,DATE Of BIRTh.0,Text,824,2,0.0,1/28/2022; 04/15/1992,Raw PDF widget 'DATE Of BIRTh.0' extracted from the OL 316 form.
+raw_date_of_birth_1,raw_widget,DATE Of BIRTh.1,Text,819,3,0.0,94103; 94404; 94043,Raw PDF widget 'DATE Of BIRTh.1' extracted from the OL 316 form.
+raw_date_of_birth_2,raw_widget,DATE Of BIRTh_2,Text,826,2,0.0,UNK,Raw PDF widget 'DATE Of BIRTh_2' extracted from the OL 316 form.
+raw_date_signed,raw_widget,DATE SIGNED,Text,826,697,0.0,3/13/2019; 03/18/2019; 01/31/2019,Raw PDF widget 'DATE SIGNED' extracted from the OL 316 form.
+raw_deceased,raw_widget,Deceased,CheckBox,826,826,0.0,0,Raw PDF widget 'Deceased' extracted from the OL 316 form.
+raw_deceased_2,raw_widget,Deceased_2,CheckBox,826,826,0.0,0,Raw PDF widget 'Deceased_2' extracted from the OL 316 form.
+raw_defective_weh_checkbox_no,raw_widget,DEFECTIVE WEH CHECKBOX NO,CheckBox,7,7,1.0,1; 0,Raw PDF widget 'DEFECTIVE WEH CHECKBOX NO' extracted from the OL 316 form.
+raw_defective_weh_checkbox_yes,raw_widget,DEFECTIVE WEH CHECKBOX YES,CheckBox,7,7,0.0,0,Raw PDF widget 'DEFECTIVE WEH CHECKBOX YES' extracted from the OL 316 form.
+raw_driver,raw_widget,Driver,CheckBox,826,826,0.0,0,Raw PDF widget 'Driver' extracted from the OL 316 form.
+raw_driver_2,raw_widget,Driver_2,CheckBox,826,826,0.0,0,Raw PDF widget 'Driver_2' extracted from the OL 316 form.
+raw_driver_license_number_0,raw_widget,DRIVER LICENSE NuMBER.0,Text,824,6,0.0,N/A - Driverless,Raw PDF widget 'DRIVER LICENSE NuMBER.0' extracted from the OL 316 form.
+raw_driver_license_number_1,raw_widget,DRIVER LICENSE NuMBER.1,Text,819,5,0.0,San Francisco; Sa; Foster City,Raw PDF widget 'DRIVER LICENSE NuMBER.1' extracted from the OL 316 form.
+raw_driver_license_number_2,raw_widget,DRIVER LICENSE NuMBER_2,Text,826,35,0.0,unk; UNK; unk.,Raw PDF widget 'DRIVER LICENSE NuMBER_2' extracted from the OL 316 form.
+raw_drivers_full_name_first_middle_last_0,raw_widget,DRIVERS fuLL NAME First Middle last.0,Text,826,7,0.0,N/A - Driverless; Zoox,Raw PDF widget 'DRIVERS fuLL NAME First Middle last.0' extracted from the OL 316 form.
+raw_drivers_full_name_first_middle_last_1,raw_widget,DRIVERS fuLL NAME First Middle last.1,Text,826,3,0.0,1201 Bryant Street; 1149 Chess Drive; 1600 Amphitheatre Parkway,Raw PDF widget 'DRIVERS fuLL NAME First Middle last.1' extracted from the OL 316 form.
+raw_drivers_full_name_first_middle_last_2,raw_widget,DRIVERS fuLL NAME First Middle last_2,Text,826,29,0.0,UNK; unk.; unk,Raw PDF widget 'DRIVERS fuLL NAME First Middle last_2' extracted from the OL 316 form.
+raw_entering_leaving_checkbox,raw_widget,ENTERING LEAVING CHECKBOX,CheckBox,7,7,0.0,0,Raw PDF widget 'ENTERING LEAVING CHECKBOX' extracted from the OL 316 form.
+raw_from,raw_widget,fROM,Text,826,0,0.0,nan,Raw PDF widget 'fROM' extracted from the OL 316 form.
+raw_from_2,raw_widget,fROM_2,Text,826,4,0.0,UNK; 07/01/2023,Raw PDF widget 'fROM_2' extracted from the OL 316 form.
+raw_front_bumper,raw_widget,Front Bumper,CheckBox,826,826,71.0,0; 1,Raw PDF widget 'Front Bumper' extracted from the OL 316 form.
+raw_front_driver_side_1,raw_widget,Front Driver Side 1,CheckBox,826,826,29.0,1; 0,Raw PDF widget 'Front Driver Side 1' extracted from the OL 316 form.
+raw_front_driver_side_2,raw_widget,Front Driver Side 2,CheckBox,826,826,5.0,0; 1,Raw PDF widget 'Front Driver Side 2' extracted from the OL 316 form.
+raw_front_driver_side_3,raw_widget,Front Driver Side 3,CheckBox,826,826,51.0,1; 0,Raw PDF widget 'Front Driver Side 3' extracted from the OL 316 form.
+raw_front_driver_side_4,raw_widget,Front Driver Side 4,CheckBox,826,826,2.0,0; 1,Raw PDF widget 'Front Driver Side 4' extracted from the OL 316 form.
+raw_front_passenger_side_1,raw_widget,Front Passenger Side 1,CheckBox,826,826,7.0,0; 1,Raw PDF widget 'Front Passenger Side 1' extracted from the OL 316 form.
+raw_front_passenger_side_2,raw_widget,Front Passenger Side 2,CheckBox,826,826,24.0,0; 1,Raw PDF widget 'Front Passenger Side 2' extracted from the OL 316 form.
+raw_front_passenger_side_3,raw_widget,Front Passenger Side 3,CheckBox,826,826,3.0,0; 1,Raw PDF widget 'Front Passenger Side 3' extracted from the OL 316 form.
+raw_front_passenger_side_4,raw_widget,Front Passenger Side 4,CheckBox,826,826,48.0,0; 1,Raw PDF widget 'Front Passenger Side 4' extracted from the OL 316 form.
+raw_g_unfamiliar_with_road_checkbox,raw_widget,G UNFAMILIAR WITH ROAD CHECKBOX,CheckBox,7,7,0.0,0,Raw PDF widget 'G UNFAMILIAR WITH ROAD CHECKBOX' extracted from the OL 316 form.
+raw_inattention_check_box,raw_widget,INATTENTION CHECK BOX,CheckBox,7,7,0.0,0,Raw PDF widget 'INATTENTION CHECK BOX' extracted from the OL 316 form.
+raw_injured,raw_widget,Injured,CheckBox,826,826,0.0,0,Raw PDF widget 'Injured' extracted from the OL 316 form.
+raw_injured_2,raw_widget,Injured_2,CheckBox,826,826,0.0,0,Raw PDF widget 'Injured_2' extracted from the OL 316 form.
+raw_insurance_company_name_or_surety_company_at_time_of_accident,raw_widget,INSuRANCE COMPANY NAME OR SuRETY COMPANY AT TIME Of ACCIDENT,Text,826,0,0.0,nan,Raw PDF widget 'INSuRANCE COMPANY NAME OR SuRETY COMPANY AT TIME Of ACCIDENT' extracted from the OL 316 form.
+raw_insurance_company_name_or_surety_company_at_time_of_accident_2,raw_widget,INSuRANCE COMPANY NAME OR SuRETY COMPANY AT TIME Of ACCIDENT_2,Text,826,36,0.0,UNK; unk.; Unknown,Raw PDF widget 'INSuRANCE COMPANY NAME OR SuRETY COMPANY AT TIME Of ACCIDENT_2' extracted from the OL 316 form.
+raw_left_front_corner_1,raw_widget,Left Front Corner 1,CheckBox,826,826,76.0,1; 0,Raw PDF widget 'Left Front Corner 1' extracted from the OL 316 form.
+raw_left_front_corner_2,raw_widget,Left Front Corner 2,CheckBox,826,826,15.0,0; 1,Raw PDF widget 'Left Front Corner 2' extracted from the OL 316 form.
+raw_left_front_corner_3,raw_widget,Left Front Corner 3,CheckBox,826,826,63.0,0; 1,Raw PDF widget 'Left Front Corner 3' extracted from the OL 316 form.
+raw_left_rear_1,raw_widget,Left Rear 1,CheckBox,826,826,180.0,0; 1,Raw PDF widget 'Left Rear 1' extracted from the OL 316 form.
+raw_left_rear_2,raw_widget,Left Rear 2,CheckBox,826,826,75.0,0; 1,Raw PDF widget 'Left Rear 2' extracted from the OL 316 form.
+raw_left_rear_3,raw_widget,Left Rear 3,CheckBox,826,826,5.0,0; 1,Raw PDF widget 'Left Rear 3' extracted from the OL 316 form.
+raw_left_rear_passenger_1,raw_widget,Left Rear Passenger 1,CheckBox,826,826,27.0,0; 1,Raw PDF widget 'Left Rear Passenger 1' extracted from the OL 316 form.
+raw_left_rear_passenger_2,raw_widget,Left Rear Passenger 2,CheckBox,826,826,0.0,0,Raw PDF widget 'Left Rear Passenger 2' extracted from the OL 316 form.
+raw_left_rear_passenger_3,raw_widget,Left Rear Passenger 3,CheckBox,826,826,25.0,0; 1,Raw PDF widget 'Left Rear Passenger 3' extracted from the OL 316 form.
+raw_left_rear_passenger_4,raw_widget,Left Rear Passenger 4,CheckBox,826,826,3.0,0; 1,Raw PDF widget 'Left Rear Passenger 4' extracted from the OL 316 form.
+raw_license_plate_number,raw_widget,LICENSE PLATE NuMBER,Text,826,1,0.0,67860S3,Raw PDF widget 'LICENSE PLATE NuMBER' extracted from the OL 316 form.
+raw_license_plate_number_2,raw_widget,LICENSE PLATE NuMBER_2,Text,826,18,0.0,unk.; Unk.; Unk,Raw PDF widget 'LICENSE PLATE NuMBER_2' extracted from the OL 316 form.
+raw_lighting_a_1,raw_widget,LIGHTING A 1,CheckBox,819,819,542.0,0; 1,Raw PDF widget 'LIGHTING A 1' extracted from the OL 316 form.
+raw_lighting_a_2,raw_widget,LIGHTING A 2,CheckBox,819,819,475.0,0; 1,Raw PDF widget 'LIGHTING A 2' extracted from the OL 316 form.
+raw_lighting_b_1,raw_widget,LIGHTING B 1,CheckBox,819,819,20.0,0; 1,Raw PDF widget 'LIGHTING B 1' extracted from the OL 316 form.
+raw_lighting_b_2,raw_widget,LIGHTING B 2,CheckBox,819,819,16.0,0; 1,Raw PDF widget 'LIGHTING B 2' extracted from the OL 316 form.
+raw_lighting_c_1,raw_widget,LIGHTING C 1,CheckBox,819,819,246.0,1; 0,Raw PDF widget 'LIGHTING C 1' extracted from the OL 316 form.
+raw_lighting_c_2,raw_widget,LIGHTING C 2,CheckBox,819,819,216.0,1; 0,Raw PDF widget 'LIGHTING C 2' extracted from the OL 316 form.
+raw_lighting_d_1,raw_widget,LIGHTING D 1,CheckBox,819,819,7.0,0; 1,Raw PDF widget 'LIGHTING D 1' extracted from the OL 316 form.
+raw_lighting_d_2,raw_widget,LIGHTING D 2,CheckBox,819,819,5.0,0; 1,Raw PDF widget 'LIGHTING D 2' extracted from the OL 316 form.
+raw_lighting_e_1,raw_widget,LIGHTING E 1,CheckBox,819,819,1.0,0; 1,Raw PDF widget 'LIGHTING E 1' extracted from the OL 316 form.
+raw_lighting_e_2,raw_widget,LIGHTING E 2,CheckBox,819,819,1.0,0; 1,Raw PDF widget 'LIGHTING E 2' extracted from the OL 316 form.
+raw_major,raw_widget,major,CheckBox,826,826,20.0,0; 1,Raw PDF widget 'major' extracted from the OL 316 form.
+raw_make,raw_widget,MAkE,Text,826,825,0.0,Chevrolet; Lincoln; Chrysler,Raw PDF widget 'MAkE' extracted from the OL 316 form.
+raw_manufacturers_name,raw_widget,MANufACTuRERS NAME,Text,826,826,0.0,GM Cruise LLC; Aurora Innovation Inc; Waymo LLC,Raw PDF widget 'MANufACTuRERS NAME' extracted from the OL 316 form.
+raw_minor,raw_widget,minor,CheckBox,826,826,590.0,0; 1,Raw PDF widget 'minor' extracted from the OL 316 form.
+raw_model,raw_widget,MODEL,Text,826,825,0.0,Bolt; MKZ; Pacifica,Raw PDF widget 'MODEL' extracted from the OL 316 form.
+raw_model_2,raw_widget,MODEL_2,Text,826,658,0.0,Pcx150; Honda CR-V; Prius,Raw PDF widget 'MODEL_2' extracted from the OL 316 form.
+raw_moderate,raw_widget,Moderate,CheckBox,826,826,133.0,1; 0,Raw PDF widget 'Moderate' extracted from the OL 316 form.
+raw_movement_a_1,raw_widget,MOVEMENT A 1,CheckBox,819,819,343.0,0; 1,Raw PDF widget 'MOVEMENT A 1' extracted from the OL 316 form.
+raw_movement_a_2,raw_widget,MOVEMENT A 2,CheckBox,819,819,21.0,0; 1,Raw PDF widget 'MOVEMENT A 2' extracted from the OL 316 form.
+raw_movement_b_1,raw_widget,MOVEMENT  B 1,CheckBox,819,819,229.0,0; 1,Raw PDF widget 'MOVEMENT  B 1' extracted from the OL 316 form.
+raw_movement_b_2,raw_widget,MOVEMENT  B 2,CheckBox,819,819,338.0,0; 1,Raw PDF widget 'MOVEMENT  B 2' extracted from the OL 316 form.
+raw_movement_c_1,raw_widget,MOVEMENT C 1,CheckBox,819,819,0.0,0,Raw PDF widget 'MOVEMENT C 1' extracted from the OL 316 form.
+raw_movement_c_2,raw_widget,MOVEMENT C 2,CheckBox,819,819,1.0,0; 1,Raw PDF widget 'MOVEMENT C 2' extracted from the OL 316 form.
+raw_movement_d_1,raw_widget,MOVEMENT  D 1,CheckBox,819,819,43.0,0; 1,Raw PDF widget 'MOVEMENT  D 1' extracted from the OL 316 form.
+raw_movement_d_2,raw_widget,MOVEMENT  D 2,CheckBox,819,819,41.0,0; 1,Raw PDF widget 'MOVEMENT  D 2' extracted from the OL 316 form.
+raw_movement_e_1,raw_widget,MOVEMENT  E 1,CheckBox,819,819,45.0,1; 0,Raw PDF widget 'MOVEMENT  E 1' extracted from the OL 316 form.
+raw_movement_e_2,raw_widget,MOVEMENT  E 2,CheckBox,819,819,34.0,0; 1,Raw PDF widget 'MOVEMENT  E 2' extracted from the OL 316 form.
+raw_movement_f_1,raw_widget,MOVEMENT  F 1,CheckBox,819,819,2.0,0; 1,Raw PDF widget 'MOVEMENT  F 1' extracted from the OL 316 form.
+raw_movement_f_2,raw_widget,MOVEMENT  F 2,CheckBox,819,819,2.0,0; 1,Raw PDF widget 'MOVEMENT  F 2' extracted from the OL 316 form.
+raw_movement_g_1,raw_widget,MOVEMENT  G 1,CheckBox,819,819,31.0,0; 1,Raw PDF widget 'MOVEMENT  G 1' extracted from the OL 316 form.
+raw_movement_g_2,raw_widget,MOVEMENT  G 2,CheckBox,819,819,60.0,0; 1,Raw PDF widget 'MOVEMENT  G 2' extracted from the OL 316 form.
+raw_movement_h_1,raw_widget,MOVEMENT  H 1,CheckBox,819,819,67.0,0; 1,Raw PDF widget 'MOVEMENT  H 1' extracted from the OL 316 form.
+raw_movement_h_2,raw_widget,MOVEMENT  H 2,CheckBox,819,819,16.0,0; 1,Raw PDF widget 'MOVEMENT  H 2' extracted from the OL 316 form.
+raw_movement_i_1,raw_widget,MOVEMENT  I 1,CheckBox,819,819,4.0,0; 1,Raw PDF widget 'MOVEMENT  I 1' extracted from the OL 316 form.
+raw_movement_i_2,raw_widget,MOVEMENT  I 2,CheckBox,819,819,43.0,0; 1,Raw PDF widget 'MOVEMENT  I 2' extracted from the OL 316 form.
+raw_movement_j_1,raw_widget,MOVEMENT J 1,CheckBox,819,819,20.0,0; 1,Raw PDF widget 'MOVEMENT J 1' extracted from the OL 316 form.
+raw_movement_j_2,raw_widget,MOVEMENT J 2,CheckBox,819,819,59.0,1; 0,Raw PDF widget 'MOVEMENT J 2' extracted from the OL 316 form.
+raw_movement_k_1,raw_widget,MOVEMENT  K 1,CheckBox,819,819,13.0,0; 1,Raw PDF widget 'MOVEMENT  K 1' extracted from the OL 316 form.
+raw_movement_k_2,raw_widget,MOVEMENT  K 2,CheckBox,819,819,13.0,0; 1,Raw PDF widget 'MOVEMENT  K 2' extracted from the OL 316 form.
+raw_movement_l_1,raw_widget,MOVEMENT  L 1,CheckBox,819,819,6.0,0; 1,Raw PDF widget 'MOVEMENT  L 1' extracted from the OL 316 form.
+raw_movement_l_2,raw_widget,MOVEMENT  L 2,CheckBox,819,819,20.0,0; 1,Raw PDF widget 'MOVEMENT  L 2' extracted from the OL 316 form.
+raw_movement_m_1,raw_widget,MOVEMENT  M 1,CheckBox,819,819,0.0,0,Raw PDF widget 'MOVEMENT  M 1' extracted from the OL 316 form.
+raw_movement_m_2,raw_widget,MOVEMENT  M 2,CheckBox,819,819,19.0,0; 1,Raw PDF widget 'MOVEMENT  M 2' extracted from the OL 316 form.
+raw_movement_n_1,raw_widget,MOVEMENT  N 1,CheckBox,819,819,1.0,0; 1,Raw PDF widget 'MOVEMENT  N 1' extracted from the OL 316 form.
+raw_movement_n_2,raw_widget,MOVEMENT  N 2,CheckBox,819,819,14.0,0; 1,Raw PDF widget 'MOVEMENT  N 2' extracted from the OL 316 form.
+raw_movement_o_1,raw_widget,MOVEMENT  O 1,CheckBox,819,819,26.0,0; 1,Raw PDF widget 'MOVEMENT  O 1' extracted from the OL 316 form.
+raw_movement_o_2,raw_widget,MOVEMENT  O 2,CheckBox,819,819,49.0,0; 1,Raw PDF widget 'MOVEMENT  O 2' extracted from the OL 316 form.
+raw_movement_p_1,raw_widget,MOVEMENT  P 1,CheckBox,819,819,4.0,0; 1,Raw PDF widget 'MOVEMENT  P 1' extracted from the OL 316 form.
+raw_movement_p_2,raw_widget,MOVEMENT  P 2,CheckBox,819,819,3.0,0; 1,Raw PDF widget 'MOVEMENT  P 2' extracted from the OL 316 form.
+raw_movement_q_1,raw_widget,MOVEMENT  Q 1,CheckBox,819,819,0.0,0,Raw PDF widget 'MOVEMENT  Q 1' extracted from the OL 316 form.
+raw_movement_q_2,raw_widget,MOVEMENT  Q 2,CheckBox,819,819,12.0,0; 1,Raw PDF widget 'MOVEMENT  Q 2' extracted from the OL 316 form.
+raw_movement_r_1,raw_widget,MOVEMENT  R 1,CheckBox,819,819,9.0,0; 1,Raw PDF widget 'MOVEMENT  R 1' extracted from the OL 316 form.
+raw_movement_r_2,raw_widget,MOVEMENT  R 2,CheckBox,819,819,16.0,0; 1,Raw PDF widget 'MOVEMENT  R 2' extracted from the OL 316 form.
+raw_moving,raw_widget,Moving,CheckBox,826,826,0.0,0,Raw PDF widget 'Moving' extracted from the OL 316 form.
+raw_moving_2,raw_widget,Moving_2,CheckBox,826,826,0.0,0,Raw PDF widget 'Moving_2' extracted from the OL 316 form.
+raw_name_first_middle_last,raw_widget,NAME First Middle last,Text,826,31,0.0,NA; N/A; None,Raw PDF widget 'NAME First Middle last' extracted from the OL 316 form.
+raw_name_first_middle_last_2,raw_widget,NAME First Middle last_2,Text,826,24,0.0,NA; N/A; None,Raw PDF widget 'NAME First Middle last_2' extracted from the OL 316 form.
+raw_none,raw_widget,nan,CheckBox,826,826,81.0,0; 1,Raw PDF widget 'None' extracted from the OL 316 form.
+raw_none_apparent_checkbox,raw_widget,NONE APPARENT CHECKBOX,CheckBox,7,7,2.0,1; 0,Raw PDF widget 'NONE APPARENT CHECKBOX' extracted from the OL 316 form.
+raw_number_of_vehicles_involved,raw_widget,NuMBER Of VEhICLES INVOLVED,Text,826,818,0.0,2; 3; 1,Raw PDF widget 'NuMBER Of VEhICLES INVOLVED' extracted from the OL 316 form.
+raw_number_of_vehicles_involved_2,raw_widget,NuMBER Of VEhICLES INVOLVED_2,Text,826,662,0.0,2; 3; 1,Raw PDF widget 'NuMBER Of VEhICLES INVOLVED_2' extracted from the OL 316 form.
+raw_other,raw_widget,Other,Text,826,174,0.0,Skateboarder; Truck; Scooter,Raw PDF widget 'Other' extracted from the OL 316 form.
+raw_other_2,raw_widget,Other_2,Text,826,81,0.0,Parked; Skateboarder; Electric Scooterist,Raw PDF widget 'Other_2' extracted from the OL 316 form.
+raw_other_a_no,raw_widget,OTHER A NO,CheckBox,819,819,28.0,0; 1,Raw PDF widget 'OTHER A NO' extracted from the OL 316 form.
+raw_other_a_yes,raw_widget,OTHER A YES,CheckBox,819,819,3.0,0; 1,Raw PDF widget 'OTHER A YES' extracted from the OL 316 form.
+raw_other_b,raw_widget,OTHER B,CheckBox,819,819,2.0,0; 1,Raw PDF widget 'OTHER B' extracted from the OL 316 form.
+raw_other_c,raw_widget,OTHER C,CheckBox,819,819,11.0,0; 1,Raw PDF widget 'OTHER C' extracted from the OL 316 form.
+raw_other_checkbox,raw_widget,OTHER CHECKBOX,CheckBox,7,7,0.0,0,Raw PDF widget 'OTHER CHECKBOX' extracted from the OL 316 form.
+raw_other_d,raw_widget,OTHER D,CheckBox,819,819,11.0,0; 1,Raw PDF widget 'OTHER D' extracted from the OL 316 form.
+raw_other_e,raw_widget,OTHER E,CheckBox,819,819,9.0,0; 1,Raw PDF widget 'OTHER E' extracted from the OL 316 form.
+raw_other_f,raw_widget,OTHER F,CheckBox,819,819,0.0,0,Raw PDF widget 'OTHER F' extracted from the OL 316 form.
+raw_other_g,raw_widget,OTHER G,CheckBox,819,819,1.0,0; 1,Raw PDF widget 'OTHER G' extracted from the OL 316 form.
+raw_other_h_no,raw_widget,OTHER H NO,CheckBox,819,819,10.0,0; 1,Raw PDF widget 'OTHER H NO' extracted from the OL 316 form.
+raw_other_h_yes,raw_widget,OTHER H YES,CheckBox,819,819,0.0,0,Raw PDF widget 'OTHER H YES' extracted from the OL 316 form.
+raw_other_i,raw_widget,OTHER I,CheckBox,819,819,1.0,0; 1,Raw PDF widget 'OTHER I' extracted from the OL 316 form.
+raw_other_j,raw_widget,OTHER J,CheckBox,819,819,3.0,0; 1,Raw PDF widget 'OTHER J' extracted from the OL 316 form.
+raw_other_k,raw_widget,OTHER K,CheckBox,819,819,94.0,0; 1,Raw PDF widget 'OTHER K' extracted from the OL 316 form.
+raw_other_l,raw_widget,OTHER L,CheckBox,819,819,2.0,0; 1,Raw PDF widget 'OTHER L' extracted from the OL 316 form.
+raw_passenger,raw_widget,Passenger,CheckBox,826,826,0.0,0,Raw PDF widget 'Passenger' extracted from the OL 316 form.
+raw_passenger_2,raw_widget,Passenger_2,CheckBox,826,826,0.0,0,Raw PDF widget 'Passenger_2' extracted from the OL 316 form.
+raw_pedestrian,raw_widget,Pedestrian,CheckBox,826,826,0.0,0,Raw PDF widget 'Pedestrian' extracted from the OL 316 form.
+raw_pedestrian_2,raw_widget,Pedestrian_2,CheckBox,826,826,0.0,0,Raw PDF widget 'Pedestrian_2' extracted from the OL 316 form.
+raw_pm,raw_widget,PM,CheckBox,826,826,0.0,0,Raw PDF widget 'PM' extracted from the OL 316 form.
+raw_policy_number,raw_widget,POLICY NuMBER,Text,826,1,0.0,1,Raw PDF widget 'POLICY NuMBER' extracted from the OL 316 form.
+raw_policy_number_2,raw_widget,POLICY NuMBER_2,Text,826,39,0.0,UNK; unk; unk.,Raw PDF widget 'POLICY NuMBER_2' extracted from the OL 316 form.
+raw_previous_collision_checkbox,raw_widget,PREVIOUS COLLISION CHECKBOX,CheckBox,7,7,0.0,0,Raw PDF widget 'PREVIOUS COLLISION CHECKBOX' extracted from the OL 316 form.
+raw_program_director_signature,raw_widget,PROGRAM DIRECTOR SIGNATURE,Text,7,7,0.0,"Raymond Tam, AV Safety Manager; Weihua Tan; LOREN MACKLEM, DIRECTOR",Raw PDF widget 'PROGRAM DIRECTOR SIGNATURE' extracted from the OL 316 form.
+raw_program_directorauthorized_representative_printed_name_and_title,raw_widget,PROGRAM DIRECTORAuThORIZED REPRESENTATIVE PRINTED NAME AND TITLE,Text,819,808,0.0,"Kevin Chu, Director of AV Engineering; Chris Urmson, CEO; Matthew Salwasser, Program Manager",Raw PDF widget 'PROGRAM DIRECTORAuThORIZED REPRESENTATIVE PRINTED NAME AND TITLE' extracted from the OL 316 form.
+raw_proper_ty,raw_widget,Proper ty,CheckBox,826,826,0.0,0,Raw PDF widget 'Proper ty' extracted from the OL 316 form.
+raw_proper_ty_2,raw_widget,Proper ty_2,CheckBox,826,826,0.0,0,Raw PDF widget 'Proper ty_2' extracted from the OL 316 form.
+raw_property_damage,raw_widget,PROPERTY DAMAGE,Text,826,39,0.0,NA; N/A; Bicycle damage,Raw PDF widget 'PROPERTY DAMAGE' extracted from the OL 316 form.
+raw_property_owners_name,raw_widget,PROPERTY OWNERS NAME,Text,826,5,0.0,NA; N/A,Raw PDF widget 'PROPERTY OWNERS NAME' extracted from the OL 316 form.
+raw_rear_bumper,raw_widget,Rear Bumper,CheckBox,826,826,234.0,0; 1,Raw PDF widget 'Rear Bumper' extracted from the OL 316 form.
+raw_right_front_corner_1,raw_widget,Right Front Corner 1,CheckBox,826,826,13.0,0; 1,Raw PDF widget 'Right Front Corner 1' extracted from the OL 316 form.
+raw_right_front_corner_2,raw_widget,Right Front Corner 2,CheckBox,826,826,70.0,0; 1,Raw PDF widget 'Right Front Corner 2' extracted from the OL 316 form.
+raw_right_front_corner_3,raw_widget,Right Front Corner 3,CheckBox,826,826,66.0,0; 1,Raw PDF widget 'Right Front Corner 3' extracted from the OL 316 form.
+raw_right_rear_1,raw_widget,Right Rear 1,CheckBox,826,826,159.0,0; 1,Raw PDF widget 'Right Rear 1' extracted from the OL 316 form.
+raw_right_rear_2,raw_widget,Right Rear 2,CheckBox,826,826,5.0,0; 1,Raw PDF widget 'Right Rear 2' extracted from the OL 316 form.
+raw_right_rear_3,raw_widget,Right Rear 3,CheckBox,826,826,67.0,0; 1,Raw PDF widget 'Right Rear 3' extracted from the OL 316 form.
+raw_right_rear_passenger_1,raw_widget,Right Rear Passenger 1,CheckBox,826,826,0.0,0,Raw PDF widget 'Right Rear Passenger 1' extracted from the OL 316 form.
+raw_right_rear_passenger_2,raw_widget,Right Rear Passenger 2,CheckBox,826,826,40.0,0; 1,Raw PDF widget 'Right Rear Passenger 2' extracted from the OL 316 form.
+raw_right_rear_passenger_3,raw_widget,Right Rear Passenger 3,CheckBox,826,826,3.0,0; 1,Raw PDF widget 'Right Rear Passenger 3' extracted from the OL 316 form.
+raw_right_rear_passenger_4,raw_widget,Right Rear Passenger 4,CheckBox,826,826,21.0,0; 1,Raw PDF widget 'Right Rear Passenger 4' extracted from the OL 316 form.
+raw_road_conditions_a_1,raw_widget,ROAD CONDITIONS A 1,CheckBox,819,819,2.0,0; 1,Raw PDF widget 'ROAD CONDITIONS A 1' extracted from the OL 316 form.
+raw_road_conditions_a_2,raw_widget,ROAD CONDITIONS A 2,CheckBox,819,819,0.0,0,Raw PDF widget 'ROAD CONDITIONS A 2' extracted from the OL 316 form.
+raw_road_conditions_b_1,raw_widget,ROAD CONDITIONS B 1,CheckBox,819,819,4.0,0; 1,Raw PDF widget 'ROAD CONDITIONS B 1' extracted from the OL 316 form.
+raw_road_conditions_b_2,raw_widget,ROAD CONDITIONS B 2,CheckBox,819,819,1.0,0; 1,Raw PDF widget 'ROAD CONDITIONS B 2' extracted from the OL 316 form.
+raw_road_conditions_c_1,raw_widget,ROAD CONDITIONS C 1,CheckBox,819,819,6.0,0; 1,Raw PDF widget 'ROAD CONDITIONS C 1' extracted from the OL 316 form.
+raw_road_conditions_c_2,raw_widget,ROAD CONDITIONS C 2,CheckBox,819,819,0.0,0,Raw PDF widget 'ROAD CONDITIONS C 2' extracted from the OL 316 form.
+raw_road_conditions_d_1,raw_widget,ROAD CONDITIONS D 1,CheckBox,819,819,5.0,0; 1,Raw PDF widget 'ROAD CONDITIONS D 1' extracted from the OL 316 form.
+raw_road_conditions_d_2,raw_widget,ROAD CONDITIONS D 2,CheckBox,819,819,4.0,0; 1,Raw PDF widget 'ROAD CONDITIONS D 2' extracted from the OL 316 form.
+raw_road_conditions_e_1,raw_widget,ROAD CONDITIONS E 1,CheckBox,819,819,4.0,0; 1,Raw PDF widget 'ROAD CONDITIONS E 1' extracted from the OL 316 form.
+raw_road_conditions_e_2,raw_widget,ROAD CONDITIONS E 2,CheckBox,819,819,3.0,0; 1,Raw PDF widget 'ROAD CONDITIONS E 2' extracted from the OL 316 form.
+raw_road_conditions_f_1,raw_widget,ROAD CONDITIONS F 1,CheckBox,819,819,0.0,0,Raw PDF widget 'ROAD CONDITIONS F 1' extracted from the OL 316 form.
+raw_road_conditions_f_2,raw_widget,ROAD CONDITIONS F 2,CheckBox,819,819,0.0,0,Raw PDF widget 'ROAD CONDITIONS F 2' extracted from the OL 316 form.
+raw_road_conditions_g_1,raw_widget,ROAD CONDITIONS G 1,CheckBox,819,819,14.0,0; 1,Raw PDF widget 'ROAD CONDITIONS G 1' extracted from the OL 316 form.
+raw_road_conditions_g_2,raw_widget,ROAD CONDITIONS G 2,CheckBox,819,819,4.0,0; 1,Raw PDF widget 'ROAD CONDITIONS G 2' extracted from the OL 316 form.
+raw_road_conditions_h_1,raw_widget,ROAD CONDITIONS H 1,CheckBox,819,819,746.0,1; 0,Raw PDF widget 'ROAD CONDITIONS H 1' extracted from the OL 316 form.
+raw_road_conditions_h_2,raw_widget,ROAD CONDITIONS H 2,CheckBox,819,819,674.0,1; 0,Raw PDF widget 'ROAD CONDITIONS H 2' extracted from the OL 316 form.
+raw_roadway_a_1,raw_widget,ROADWAY A 1,CheckBox,819,819,741.0,1; 0,Raw PDF widget 'ROADWAY A 1' extracted from the OL 316 form.
+raw_roadway_a_2,raw_widget,ROADWAY A 2,CheckBox,819,819,650.0,1; 0,Raw PDF widget 'ROADWAY A 2' extracted from the OL 316 form.
+raw_roadway_b_1,raw_widget,ROADWAY B 1,CheckBox,819,819,47.0,0; 1,Raw PDF widget 'ROADWAY B 1' extracted from the OL 316 form.
+raw_roadway_b_2,raw_widget,ROADWAY B 2,CheckBox,819,819,35.0,0; 1,Raw PDF widget 'ROADWAY B 2' extracted from the OL 316 form.
+raw_roadway_c_1,raw_widget,ROADWAY C 1,CheckBox,819,819,0.0,0,Raw PDF widget 'ROADWAY C 1' extracted from the OL 316 form.
+raw_roadway_c_2,raw_widget,ROADWAY C 2,CheckBox,819,819,0.0,0,Raw PDF widget 'ROADWAY C 2' extracted from the OL 316 form.
+raw_roadway_d_1,raw_widget,ROADWAY D 1,CheckBox,819,819,0.0,0,Raw PDF widget 'ROADWAY D 1' extracted from the OL 316 form.
+raw_roadway_d_2,raw_widget,ROADWAY D 2,CheckBox,819,819,0.0,0,Raw PDF widget 'ROADWAY D 2' extracted from the OL 316 form.
+raw_runaway_vehicle_checkbox,raw_widget,RUNAWAY VEHICLE CHECKBOX,CheckBox,7,7,0.0,0,Raw PDF widget 'RUNAWAY VEHICLE CHECKBOX' extracted from the OL 316 form.
+raw_section_2_accident_information_0,raw_widget,section 2  accident infoRmation.0,Text,826,825,0.0,Folsom St. and 11th St.; Townsend and 3rd; S. Van Ness Ave between 12th St. and 13th St.,Raw PDF widget 'section 2  accident infoRmation.0' extracted from the OL 316 form.
+raw_section_2_accident_information_1_0,raw_widget,section 2  accident infoRmation.1.0,Text,826,825,0.0,San Francisco; Mountain View; Los Altos,Raw PDF widget 'section 2  accident infoRmation.1.0' extracted from the OL 316 form.
+raw_section_2_accident_information_1_1_0,raw_widget,section 2  accident infoRmation.1.1.0,Text,826,822,0.0,San Francisco; Santa Clara; Alameda,Raw PDF widget 'section 2  accident infoRmation.1.1.0' extracted from the OL 316 form.
+raw_section_2_accident_information_1_1_1_0,raw_widget,section 2  accident infoRmation.1.1.1.0,Text,826,823,0.0,CA,Raw PDF widget 'section 2  accident infoRmation.1.1.1.0' extracted from the OL 316 form.
+raw_section_2_accident_information_1_1_1_1,raw_widget,section 2  accident infoRmation.1.1.1.1,Text,826,822,0.0,94103; 94107; 94041,Raw PDF widget 'section 2  accident infoRmation.1.1.1.1' extracted from the OL 316 form.
+raw_state_0,raw_widget,STATE.0,Text,826,532,0.0,CA; OR; IL,Raw PDF widget 'STATE.0' extracted from the OL 316 form.
+raw_state_1,raw_widget,STATE.1,Text,826,9,0.0,CA,Raw PDF widget 'STATE.1' extracted from the OL 316 form.
+raw_state_2,raw_widget,STATE_2,Text,826,309,0.0,un; CA; Un,Raw PDF widget 'STATE_2' extracted from the OL 316 form.
+raw_state_3,raw_widget,STATE_3,Text,826,36,0.0,un; NA; CA,Raw PDF widget 'STATE_3' extracted from the OL 316 form.
+raw_state_4_0,raw_widget,STATE_4.0,Text,826,14,0.0,NA; CA,Raw PDF widget 'STATE_4.0' extracted from the OL 316 form.
+raw_state_4_1_0,raw_widget,STATE_4.1.0,Text,826,14,0.0,NA; CA,Raw PDF widget 'STATE_4.1.0' extracted from the OL 316 form.
+raw_state_4_1_1_0,raw_widget,STATE_4.1.1.0,Text,826,7,0.0,NA; CA,Raw PDF widget 'STATE_4.1.1.0' extracted from the OL 316 form.
+raw_state_4_1_1_1,raw_widget,STATE_4.1.1.1,Text,826,24,0.0,NA; CA,Raw PDF widget 'STATE_4.1.1.1' extracted from the OL 316 form.
+raw_state_vehicle_is_registered_in,raw_widget,STATE VEhICLE IS REGISTERED IN,Text,826,813,0.0,CA; California; 2,Raw PDF widget 'STATE VEhICLE IS REGISTERED IN' extracted from the OL 316 form.
+raw_state_vehicle_is_registered_in_2,raw_widget,STATE VEhICLE IS REGISTERED IN_2,Text,826,563,0.0,CA; California; unk.,Raw PDF widget 'STATE VEhICLE IS REGISTERED IN_2' extracted from the OL 316 form.
+raw_stop_go_checkbox,raw_widget,STOP GO CHECKBOX,CheckBox,7,7,0.0,0,Raw PDF widget 'STOP GO CHECKBOX' extracted from the OL 316 form.
+raw_stopped_in_traffic,raw_widget,Stopped in Traffic,CheckBox,826,826,0.0,0,Raw PDF widget 'Stopped in Traffic' extracted from the OL 316 form.
+raw_stopped_in_traffic_2,raw_widget,Stopped in Traffic_2,CheckBox,826,826,0.0,0,Raw PDF widget 'Stopped in Traffic_2' extracted from the OL 316 form.
+raw_telephone_number,raw_widget,TELEPHONE NUMBER,Text,7,0,0.0,nan,Raw PDF widget 'TELEPHONE NUMBER' extracted from the OL 316 form.
+raw_telephone_number_0,raw_widget,TELEPhONE NuMBER.0,Text,826,0,0.0,nan,Raw PDF widget 'TELEPhONE NuMBER.0' extracted from the OL 316 form.
+raw_telephone_number_1,raw_widget,TELEPhONE NuMBER.1,Text,826,0,0.0,nan,Raw PDF widget 'TELEPhONE NuMBER.1' extracted from the OL 316 form.
+raw_telephone_number_2_0,raw_widget,TELEPhONE NuMBER_2.0,Text,826,0,0.0,nan,Raw PDF widget 'TELEPhONE NuMBER_2.0' extracted from the OL 316 form.
+raw_telephone_number_2_1_0,raw_widget,TELEPhONE NuMBER_2.1.0,Text,826,0,0.0,nan,Raw PDF widget 'TELEPhONE NuMBER_2.1.0' extracted from the OL 316 form.
+raw_telephone_number_2_1_1,raw_widget,TELEPhONE NuMBER_2.1.1,Text,826,0,0.0,nan,Raw PDF widget 'TELEPhONE NuMBER_2.1.1' extracted from the OL 316 form.
+raw_telephone_number_2_1_2_0,raw_widget,TELEPhONE NuMBER_2.1.2.0,Text,824,0,0.0,nan,Raw PDF widget 'TELEPhONE NuMBER_2.1.2.0' extracted from the OL 316 form.
+raw_telephone_number_2_1_2_1,raw_widget,TELEPhONE NuMBER_2.1.2.1,Text,819,6,0.0,335-4097; 667-9073,Raw PDF widget 'TELEPhONE NuMBER_2.1.2.1' extracted from the OL 316 form.
+raw_telephone_number_3,raw_widget,TELEPhONE NuMBER_3,Text,826,0,0.0,nan,Raw PDF widget 'TELEPhONE NuMBER_3' extracted from the OL 316 form.
+raw_telephone_number_4_0,raw_widget,TELEPhONE NuMBER_4.0,Text,824,0,0.0,nan,Raw PDF widget 'TELEPhONE NuMBER_4.0' extracted from the OL 316 form.
+raw_telephone_number_4_1,raw_widget,TELEPhONE NuMBER_4.1,Text,819,6,0.0,415; 650,Raw PDF widget 'TELEPhONE NuMBER_4.1' extracted from the OL 316 form.
+raw_time_of_accident,raw_widget,Time of Accident,Text,826,825,0.0,06:54; 02:52; 11:29,Raw PDF widget 'Time of Accident' extracted from the OL 316 form.
+raw_to,raw_widget,TO,Text,826,0,0.0,nan,Raw PDF widget 'TO' extracted from the OL 316 form.
+raw_to_2,raw_widget,TO_2,Text,826,5,0.0,UNK; 07/28/2022; 07/01/2024,Raw PDF widget 'TO_2' extracted from the OL 316 form.
+raw_type_a_1,raw_widget,TYPE A 1,CheckBox,819,819,46.0,0; 1,Raw PDF widget 'TYPE A 1' extracted from the OL 316 form.
+raw_type_a_2,raw_widget,TYPE A 2,CheckBox,819,819,137.0,0; 1,Raw PDF widget 'TYPE A 2' extracted from the OL 316 form.
+raw_type_b_1,raw_widget,TYPE B 1,CheckBox,819,819,129.0,0; 1,Raw PDF widget 'TYPE B 1' extracted from the OL 316 form.
+raw_type_b_2,raw_widget,TYPE B 2,CheckBox,819,819,190.0,1; 0,Raw PDF widget 'TYPE B 2' extracted from the OL 316 form.
+raw_type_c_1,raw_widget,TYPE C 1,CheckBox,819,819,151.0,0; 1,Raw PDF widget 'TYPE C 1' extracted from the OL 316 form.
+raw_type_c_2,raw_widget,TYPE C 2,CheckBox,819,819,247.0,0; 1,Raw PDF widget 'TYPE C 2' extracted from the OL 316 form.
+raw_type_d_1,raw_widget,TYPE D 1,CheckBox,819,819,29.0,0; 1,Raw PDF widget 'TYPE D 1' extracted from the OL 316 form.
+raw_type_d_2,raw_widget,TYPE D 2,CheckBox,819,819,49.0,0; 1,Raw PDF widget 'TYPE D 2' extracted from the OL 316 form.
+raw_type_e_1,raw_widget,TYPE E 1,CheckBox,819,819,68.0,0; 1,Raw PDF widget 'TYPE E 1' extracted from the OL 316 form.
+raw_type_e_2,raw_widget,TYPE E 2,CheckBox,819,819,2.0,0; 1,Raw PDF widget 'TYPE E 2' extracted from the OL 316 form.
+raw_type_f_1,raw_widget,TYPE F 1,CheckBox,819,819,1.0,0; 1,Raw PDF widget 'TYPE F 1' extracted from the OL 316 form.
+raw_type_f_2,raw_widget,TYPE F 2,CheckBox,819,819,0.0,0,Raw PDF widget 'TYPE F 2' extracted from the OL 316 form.
+raw_type_g_1,raw_widget,TYPE G 1,CheckBox,819,819,1.0,0; 1,Raw PDF widget 'TYPE G 1' extracted from the OL 316 form.
+raw_type_g_2,raw_widget,TYPE G 2,CheckBox,819,819,2.0,0; 1,Raw PDF widget 'TYPE G 2' extracted from the OL 316 form.
+raw_type_h_1,raw_widget,TYPE H 1,CheckBox,819,819,38.0,0; 1,Raw PDF widget 'TYPE H 1' extracted from the OL 316 form.
+raw_type_h_2,raw_widget,TYPE H 2,CheckBox,819,819,33.0,0; 1,Raw PDF widget 'TYPE H 2' extracted from the OL 316 form.
+raw_undefined,raw_widget,undefined,CheckBox,826,826,0.0,0,Raw PDF widget 'undefined' extracted from the OL 316 form.
+raw_undefined_2,raw_widget,undefined_2,CheckBox,826,826,0.0,0,Raw PDF widget 'undefined_2' extracted from the OL 316 form.
+raw_uninvolved_vehicle_checkbox,raw_widget,UNINVOLVED VEHICLE CHECKBOX,CheckBox,7,7,0.0,0,Raw PDF widget 'UNINVOLVED VEHICLE CHECKBOX' extracted from the OL 316 form.
+raw_unknown,raw_widget,Unknown,CheckBox,826,826,1.0,0; 1,Raw PDF widget 'Unknown' extracted from the OL 316 form.
+raw_veh_1a_clear_0,raw_widget,VEH 1A CLEAR.0,CheckBox,2,2,2.0,1,Raw PDF widget 'VEH 1A CLEAR.0' extracted from the OL 316 form.
+raw_veh_1a_clear_0_0,raw_widget,VEH 1A CLEAR.0.0,CheckBox,5,5,5.0,1,Raw PDF widget 'VEH 1A CLEAR.0.0' extracted from the OL 316 form.
+raw_veh_1a_daylight_0,raw_widget,VEH 1A DAYLIGHT.0,CheckBox,2,2,2.0,1,Raw PDF widget 'VEH 1A DAYLIGHT.0' extracted from the OL 316 form.
+raw_veh_1a_daylight_0_0,raw_widget,VEH 1A DAYLIGHT.0.0,CheckBox,5,5,5.0,1,Raw PDF widget 'VEH 1A DAYLIGHT.0.0' extracted from the OL 316 form.
+raw_veh_1a_dry_0,raw_widget,VEH 1A DRY.0,CheckBox,2,2,1.0,0; 1,Raw PDF widget 'VEH 1A DRY.0' extracted from the OL 316 form.
+raw_veh_1a_dry_0_0,raw_widget,VEH 1A DRY.0.0,CheckBox,5,5,3.0,1; 0,Raw PDF widget 'VEH 1A DRY.0.0' extracted from the OL 316 form.
+raw_veh_1a_head_on_0,raw_widget,VEH 1A HEAD ON.0,CheckBox,2,2,0.0,0,Raw PDF widget 'VEH 1A HEAD ON.0' extracted from the OL 316 form.
+raw_veh_1a_head_on_0_0,raw_widget,VEH 1A HEAD ON.0.0,CheckBox,5,5,1.0,0; 1,Raw PDF widget 'VEH 1A HEAD ON.0.0' extracted from the OL 316 form.
+raw_veh_1a_holes_0,raw_widget,VEH 1A HOLES.0,CheckBox,2,2,0.0,0,Raw PDF widget 'VEH 1A HOLES.0' extracted from the OL 316 form.
+raw_veh_1a_holes_0_0,raw_widget,VEH 1A HOLES.0.0,CheckBox,5,5,0.0,0,Raw PDF widget 'VEH 1A HOLES.0.0' extracted from the OL 316 form.
+raw_veh_1a_stopped_0,raw_widget,VEH 1A STOPPED.0,CheckBox,2,2,0.0,0,Raw PDF widget 'VEH 1A STOPPED.0' extracted from the OL 316 form.
+raw_veh_1a_stopped_0_0,raw_widget,VEH 1A STOPPED.0.0,CheckBox,5,5,1.0,0; 1,Raw PDF widget 'VEH 1A STOPPED.0.0' extracted from the OL 316 form.
+raw_veh_1b_cloudy,raw_widget,VEH 1B CLOUDY,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1B CLOUDY' extracted from the OL 316 form.
+raw_veh_1b_dusk,raw_widget,VEH 1B DUSK,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1B DUSK' extracted from the OL 316 form.
+raw_veh_1b_loose,raw_widget,VEH 1B LOOSE,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1B LOOSE' extracted from the OL 316 form.
+raw_veh_1b_proceeding,raw_widget,VEH 1B PROCEEDING,CheckBox,7,7,3.0,0; 1,Raw PDF widget 'VEH 1B PROCEEDING' extracted from the OL 316 form.
+raw_veh_1b_side_swipe,raw_widget,VEH 1B SIDE SWIPE,CheckBox,7,7,3.0,0; 1,Raw PDF widget 'VEH 1B SIDE SWIPE' extracted from the OL 316 form.
+raw_veh_1b_wet,raw_widget,VEH 1B WET,CheckBox,7,7,1.0,0; 1,Raw PDF widget 'VEH 1B WET' extracted from the OL 316 form.
+raw_veh_1c_dark,raw_widget,VEH 1C DARK,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1C DARK' extracted from the OL 316 form.
+raw_veh_1c_obstruction_on_roadway,raw_widget,VEH 1C OBSTRUCTION ON ROADWAY,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1C OBSTRUCTION ON ROADWAY' extracted from the OL 316 form.
+raw_veh_1c_raining,raw_widget,VEH 1C RAINING,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1C RAINING' extracted from the OL 316 form.
+raw_veh_1c_ran_off_road,raw_widget,VEH 1C RAN OFF ROAD,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1C RAN OFF ROAD' extracted from the OL 316 form.
+raw_veh_1c_rear_end,raw_widget,VEH 1C REAR END,CheckBox,7,7,2.0,0; 1,Raw PDF widget 'VEH 1C REAR END' extracted from the OL 316 form.
+raw_veh_1c_snowy,raw_widget,VEH 1C SNOWY,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1C SNOWY' extracted from the OL 316 form.
+raw_veh_1d_broadside,raw_widget,VEH 1D BROADSIDE,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1D BROADSIDE' extracted from the OL 316 form.
+raw_veh_1d_construction,raw_widget,VEH 1D CONSTRUCTION,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1D CONSTRUCTION' extracted from the OL 316 form.
+raw_veh_1d_dark_no_lights,raw_widget,VEH 1D DARK NO LIGHTS,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1D DARK NO LIGHTS' extracted from the OL 316 form.
+raw_veh_1d_fog,raw_widget,VEH 1D FOG,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1D FOG' extracted from the OL 316 form.
+raw_veh_1d_making_right_turn,raw_widget,VEH 1D MAKING RIGHT TURN,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1D MAKING RIGHT TURN' extracted from the OL 316 form.
+raw_veh_1d_slippery,raw_widget,VEH 1D SLIPPERY,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1D SLIPPERY' extracted from the OL 316 form.
+raw_veh_1d_snowing,raw_widget,VEH 1D SNOWING,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1D SNOWING' extracted from the OL 316 form.
+raw_veh_1e_dark_street_light_no_function,raw_widget,VEH 1E DARK STREET LIGHT NO FUNCTION,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1E DARK STREET LIGHT NO FUNCTION' extracted from the OL 316 form.
+raw_veh_1e_dark_streetlights_not_function,raw_widget,VEH 1E DARK STREETLIGHTS NOT FUNCTION,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1E DARK STREETLIGHTS NOT FUNCTION' extracted from the OL 316 form.
+raw_veh_1e_hit_object,raw_widget,VEH 1E HIT OBJECT,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1E HIT OBJECT' extracted from the OL 316 form.
+raw_veh_1e_making_left_turn,raw_widget,VEH 1E MAKING LEFT TURN,CheckBox,7,7,1.0,0; 1,Raw PDF widget 'VEH 1E MAKING LEFT TURN' extracted from the OL 316 form.
+raw_veh_1e_other,raw_widget,VEH 1E OTHER,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1E OTHER' extracted from the OL 316 form.
+raw_veh_1e_reduced_roadway,raw_widget,VEH 1E REDUCED ROADWAY,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1E REDUCED ROADWAY' extracted from the OL 316 form.
+raw_veh_1f_flooded,raw_widget,VEH 1F FLOODED,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1F FLOODED' extracted from the OL 316 form.
+raw_veh_1f_making_u_turn,raw_widget,VEH 1F MAKING U TURN,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1F MAKING U TURN' extracted from the OL 316 form.
+raw_veh_1f_overturned,raw_widget,VEH 1F OVERTURNED,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1F OVERTURNED' extracted from the OL 316 form.
+raw_veh_1f_wind,raw_widget,VEH 1F WIND,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1F WIND' extracted from the OL 316 form.
+raw_veh_1g_backing,raw_widget,VEH 1G BACKING,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1G BACKING' extracted from the OL 316 form.
+raw_veh_1g_other,raw_widget,VEH 1G OTHER,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1G OTHER' extracted from the OL 316 form.
+raw_veh_1g_vehicle,raw_widget,VEH 1G VEHICLE,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1G VEHICLE' extracted from the OL 316 form.
+raw_veh_1h_no_unusual_conditions,raw_widget,VEH 1H NO UNUSUAL CONDITIONS,CheckBox,7,7,7.0,1,Raw PDF widget 'VEH 1H NO UNUSUAL CONDITIONS' extracted from the OL 316 form.
+raw_veh_1h_other,raw_widget,VEH 1H OTHER,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1H OTHER' extracted from the OL 316 form.
+raw_veh_1h_slowing,raw_widget,VEH 1H SLOWING,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1H SLOWING' extracted from the OL 316 form.
+raw_veh_1i_passing_other_vehicle,raw_widget,VEH 1I PASSING OTHER VEHICLE,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1I PASSING OTHER VEHICLE' extracted from the OL 316 form.
+raw_veh_1j_changing_lanes,raw_widget,VEH 1J CHANGING LANES,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1J CHANGING LANES' extracted from the OL 316 form.
+raw_veh_1k_parking_manuever,raw_widget,VEH 1K PARKING MANUEVER,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1K PARKING MANUEVER' extracted from the OL 316 form.
+raw_veh_1l_entering_traffic,raw_widget,VEH 1L ENTERING TRAFFIC,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1L ENTERING TRAFFIC' extracted from the OL 316 form.
+raw_veh_1m_other_unsafe_turning,raw_widget,VEH 1M OTHER UNSAFE TURNING,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1M OTHER UNSAFE TURNING' extracted from the OL 316 form.
+raw_veh_1n_xing_into_opposing_lane,raw_widget,VEH 1N XING INTO OPPOSING LANE,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1N XING INTO OPPOSING LANE' extracted from the OL 316 form.
+raw_veh_1o_parked,raw_widget,VEH 1O PARKED,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1O PARKED' extracted from the OL 316 form.
+raw_veh_1o_parking,raw_widget,VEH 1O PARKING,CheckBox,7,7,1.0,1; 0,Raw PDF widget 'VEH 1O PARKING' extracted from the OL 316 form.
+raw_veh_1p_merging,raw_widget,VEH 1P MERGING,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1P MERGING' extracted from the OL 316 form.
+raw_veh_1q_traveling,raw_widget,VEH 1Q TRAVELING,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1Q TRAVELING' extracted from the OL 316 form.
+raw_veh_1r_other,raw_widget,VEH 1R OTHER,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 1R OTHER' extracted from the OL 316 form.
+raw_veh_2a_clear,raw_widget,VEH 2A CLEAR,CheckBox,7,7,6.0,1; 0,Raw PDF widget 'VEH 2A CLEAR' extracted from the OL 316 form.
+raw_veh_2a_daylight_0_1,raw_widget,VEH 2A DAYLIGHT.0.1,CheckBox,5,5,4.0,1; 0,Raw PDF widget 'VEH 2A DAYLIGHT.0.1' extracted from the OL 316 form.
+raw_veh_2a_daylight_1,raw_widget,VEH 2A DAYLIGHT.1,CheckBox,2,2,2.0,1,Raw PDF widget 'VEH 2A DAYLIGHT.1' extracted from the OL 316 form.
+raw_veh_2a_dry_0_1,raw_widget,VEH 2A DRY.0.1,CheckBox,5,5,2.0,1; 0,Raw PDF widget 'VEH 2A DRY.0.1' extracted from the OL 316 form.
+raw_veh_2a_dry_1,raw_widget,VEH 2A DRY.1,CheckBox,2,2,1.0,0; 1,Raw PDF widget 'VEH 2A DRY.1' extracted from the OL 316 form.
+raw_veh_2a_head_on_0_1,raw_widget,VEH 2A HEAD ON.0.1,CheckBox,5,5,1.0,0; 1,Raw PDF widget 'VEH 2A HEAD ON.0.1' extracted from the OL 316 form.
+raw_veh_2a_head_on_1,raw_widget,VEH 2A HEAD ON.1,CheckBox,2,2,1.0,1; 0,Raw PDF widget 'VEH 2A HEAD ON.1' extracted from the OL 316 form.
+raw_veh_2a_holes_0_1,raw_widget,VEH 2A HOLES.0.1,CheckBox,5,5,0.0,0,Raw PDF widget 'VEH 2A HOLES.0.1' extracted from the OL 316 form.
+raw_veh_2a_holes_1,raw_widget,VEH 2A HOLES.1,CheckBox,2,2,0.0,0,Raw PDF widget 'VEH 2A HOLES.1' extracted from the OL 316 form.
+raw_veh_2a_stopped_0_1,raw_widget,VEH 2A STOPPED.0.1,CheckBox,5,5,0.0,0,Raw PDF widget 'VEH 2A STOPPED.0.1' extracted from the OL 316 form.
+raw_veh_2a_stopped_1,raw_widget,VEH 2A STOPPED.1,CheckBox,2,2,0.0,0,Raw PDF widget 'VEH 2A STOPPED.1' extracted from the OL 316 form.
+raw_veh_2b_cloudy,raw_widget,VEH 2B CLOUDY,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 2B CLOUDY' extracted from the OL 316 form.
+raw_veh_2b_dusk,raw_widget,VEH 2B DUSK,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 2B DUSK' extracted from the OL 316 form.
+raw_veh_2b_loose,raw_widget,VEH 2B LOOSE,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 2B LOOSE' extracted from the OL 316 form.
+raw_veh_2b_proceeding,raw_widget,VEH 2B PROCEEDING,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 2B PROCEEDING' extracted from the OL 316 form.
+raw_veh_2b_side_swipe,raw_widget,VEH 2B SIDE SWIPE,CheckBox,7,7,2.0,1; 0,Raw PDF widget 'VEH 2B SIDE SWIPE' extracted from the OL 316 form.
+raw_veh_2b_wet,raw_widget,VEH 2B WET,CheckBox,7,7,1.0,0; 1,Raw PDF widget 'VEH 2B WET' extracted from the OL 316 form.
+raw_veh_2c_dark,raw_widget,VEH 2C DARK,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 2C DARK' extracted from the OL 316 form.
+raw_veh_2c_obstruction,raw_widget,VEH 2C OBSTRUCTION,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 2C OBSTRUCTION' extracted from the OL 316 form.
+raw_veh_2c_raining,raw_widget,VEH 2C RAINING,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 2C RAINING' extracted from the OL 316 form.
+raw_veh_2c_ran_off_road,raw_widget,VEH 2C RAN OFF ROAD,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 2C RAN OFF ROAD' extracted from the OL 316 form.
+raw_veh_2c_rear_end,raw_widget,VEH 2C REAR END,CheckBox,7,7,2.0,0; 1,Raw PDF widget 'VEH 2C REAR END' extracted from the OL 316 form.
+raw_veh_2c_snowy,raw_widget,VEH 2C SNOWY,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 2C SNOWY' extracted from the OL 316 form.
+raw_veh_2d_broadside,raw_widget,VEH 2D BROADSIDE,CheckBox,7,7,1.0,0; 1,Raw PDF widget 'VEH 2D BROADSIDE' extracted from the OL 316 form.
+raw_veh_2d_construction,raw_widget,VEH 2D CONSTRUCTION,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 2D CONSTRUCTION' extracted from the OL 316 form.
+raw_veh_2d_dark_no_light,raw_widget,VEH 2D DARK NO LIGHT,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 2D DARK NO LIGHT' extracted from the OL 316 form.
+raw_veh_2d_fog,raw_widget,VEH 2D FOG,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 2D FOG' extracted from the OL 316 form.
+raw_veh_2d_making_right_turn,raw_widget,VEH 2D MAKING RIGHT TURN,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 2D MAKING RIGHT TURN' extracted from the OL 316 form.
+raw_veh_2d_slippery,raw_widget,VEH 2D SLIPPERY,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 2D SLIPPERY' extracted from the OL 316 form.
+raw_veh_2d_snowing,raw_widget,VEH 2D SNOWING,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 2D SNOWING' extracted from the OL 316 form.
+raw_veh_2e_hit_ojbect,raw_widget,VEH 2E HIT OJBECT,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 2E HIT OJBECT' extracted from the OL 316 form.
+raw_veh_2e_making_left_turn,raw_widget,VEH 2E MAKING LEFT TURN,CheckBox,7,7,1.0,0; 1,Raw PDF widget 'VEH 2E MAKING LEFT TURN' extracted from the OL 316 form.
+raw_veh_2e_other,raw_widget,VEH 2E OTHER,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 2E OTHER' extracted from the OL 316 form.
+raw_veh_2e_reduced_roadway,raw_widget,VEH 2E REDUCED ROADWAY,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 2E REDUCED ROADWAY' extracted from the OL 316 form.
+raw_veh_2f_flooded,raw_widget,VEH 2F FLOODED,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 2F FLOODED' extracted from the OL 316 form.
+raw_veh_2f_making_u_turn,raw_widget,VEH 2F MAKING U TURN,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 2F MAKING U TURN' extracted from the OL 316 form.
+raw_veh_2f_overturned,raw_widget,VEH 2F OVERTURNED,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 2F OVERTURNED' extracted from the OL 316 form.
+raw_veh_2f_wind,raw_widget,VEH 2F WIND,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 2F WIND' extracted from the OL 316 form.
+raw_veh_2g_backing,raw_widget,VEH 2G BACKING,CheckBox,7,7,2.0,0; 1,Raw PDF widget 'VEH 2G BACKING' extracted from the OL 316 form.
+raw_veh_2g_other,raw_widget,VEH 2G OTHER,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 2G OTHER' extracted from the OL 316 form.
+raw_veh_2g_vehicle,raw_widget,VEH 2G VEHICLE,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 2G VEHICLE' extracted from the OL 316 form.
+raw_veh_2h_no_unusual,raw_widget,VEH 2H NO UNUSUAL,CheckBox,7,7,6.0,1; 0,Raw PDF widget 'VEH 2H NO UNUSUAL' extracted from the OL 316 form.
+raw_veh_2h_slowing,raw_widget,VEH 2H SLOWING,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 2H SLOWING' extracted from the OL 316 form.
+raw_veh_2i_passing_other_vehicle,raw_widget,VEH 2I PASSING OTHER VEHICLE,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 2I PASSING OTHER VEHICLE' extracted from the OL 316 form.
+raw_veh_2j_changing_lanes,raw_widget,VEH 2J CHANGING LANES,CheckBox,7,7,1.0,0; 1,Raw PDF widget 'VEH 2J CHANGING LANES' extracted from the OL 316 form.
+raw_veh_2k_parking_manuever,raw_widget,VEH 2K PARKING MANUEVER,CheckBox,7,7,1.0,1; 0,Raw PDF widget 'VEH 2K PARKING MANUEVER' extracted from the OL 316 form.
+raw_veh_2l_entering_traffic,raw_widget,VEH 2L ENTERING TRAFFIC,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 2L ENTERING TRAFFIC' extracted from the OL 316 form.
+raw_veh_2m_other_unsfae_turning,raw_widget,VEH 2M OTHER UNSFAE TURNING,CheckBox,7,7,2.0,0; 1,Raw PDF widget 'VEH 2M OTHER UNSFAE TURNING' extracted from the OL 316 form.
+raw_veh_2n_xing_into_opposing_lane,raw_widget,VEH 2N XING INTO OPPOSING LANE,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 2N XING INTO OPPOSING LANE' extracted from the OL 316 form.
+raw_veh_2p_merging,raw_widget,VEH 2P MERGING,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 2P MERGING' extracted from the OL 316 form.
+raw_veh_2q_traveling,raw_widget,VEH 2Q TRAVELING,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 2Q TRAVELING' extracted from the OL 316 form.
+raw_veh_2r_other,raw_widget,VEH 2R OTHER,CheckBox,7,7,0.0,0,Raw PDF widget 'VEH 2R OTHER' extracted from the OL 316 form.
+raw_vehicle_identification_number,raw_widget,VEhICLE IDENTIfICATION NuMBER,Text,826,1,0.0,5TDDGRFHXHS029819,Raw PDF widget 'VEhICLE IDENTIfICATION NuMBER' extracted from the OL 316 form.
+raw_vehicle_identification_number_2,raw_widget,VEhICLE IDENTIfICATION NuMBER_2,Text,826,45,0.0,UNK; unk; unk.,Raw PDF widget 'VEhICLE IDENTIfICATION NuMBER_2' extracted from the OL 316 form.
+raw_vehicle_year,raw_widget,VEhICLE YEAR,Text,826,825,0.0,2019; 2017; 2018,Raw PDF widget 'VEhICLE YEAR' extracted from the OL 316 form.
+raw_vehicle_year_2,raw_widget,VEhICLE YEAR_2,Text,826,454,0.0,2018; 2004; 2017,Raw PDF widget 'VEhICLE YEAR_2' extracted from the OL 316 form.
+raw_weather_a_1,raw_widget,WEATHER A 1,CheckBox,819,819,688.0,1; 0,Raw PDF widget 'WEATHER A 1' extracted from the OL 316 form.
+raw_weather_a_2,raw_widget,WEATHER A 2,CheckBox,819,819,612.0,1; 0,Raw PDF widget 'WEATHER A 2' extracted from the OL 316 form.
+raw_weather_b_1,raw_widget,WEATHER B 1,CheckBox,819,819,87.0,0; 1,Raw PDF widget 'WEATHER B 1' extracted from the OL 316 form.
+raw_weather_b_2,raw_widget,WEATHER B 2,CheckBox,819,819,72.0,0; 1,Raw PDF widget 'WEATHER B 2' extracted from the OL 316 form.
+raw_weather_c_1,raw_widget,WEATHER C 1,CheckBox,819,819,36.0,0; 1,Raw PDF widget 'WEATHER C 1' extracted from the OL 316 form.
+raw_weather_c_2,raw_widget,WEATHER C 2,CheckBox,819,819,26.0,0; 1,Raw PDF widget 'WEATHER C 2' extracted from the OL 316 form.
+raw_weather_d_1,raw_widget,WEATHER D 1,CheckBox,819,819,0.0,0,Raw PDF widget 'WEATHER D 1' extracted from the OL 316 form.
+raw_weather_d_2,raw_widget,WEATHER D 2,CheckBox,819,819,0.0,0,Raw PDF widget 'WEATHER D 2' extracted from the OL 316 form.
+raw_weather_e_1,raw_widget,WEATHER E 1,CheckBox,819,819,5.0,0; 1,Raw PDF widget 'WEATHER E 1' extracted from the OL 316 form.
+raw_weather_e_2,raw_widget,WEATHER E 2,CheckBox,819,819,5.0,0; 1,Raw PDF widget 'WEATHER E 2' extracted from the OL 316 form.
+raw_weather_f_1,raw_widget,WEATHER F 1,CheckBox,819,819,3.0,0; 1,Raw PDF widget 'WEATHER F 1' extracted from the OL 316 form.
+raw_weather_f_2,raw_widget,WEATHER F 2,CheckBox,819,819,2.0,0; 1,Raw PDF widget 'WEATHER F 2' extracted from the OL 316 form.
+raw_weather_g_1,raw_widget,WEATHER G 1,CheckBox,819,819,0.0,0,Raw PDF widget 'WEATHER G 1' extracted from the OL 316 form.
+raw_weather_g_2,raw_widget,WEATHER G 2,CheckBox,819,819,0.0,0,Raw PDF widget 'WEATHER G 2' extracted from the OL 316 form.
+raw_witness_name,raw_widget,WITNESS NAME,Text,826,24,0.0,NA; N/A; None,Raw PDF widget 'WITNESS NAME' extracted from the OL 316 form.
+raw_witness_name_2,raw_widget,WITNESS NAME_2,Text,826,22,0.0,NA; N/A; None,Raw PDF widget 'WITNESS NAME_2' extracted from the OL 316 form.
+raw_zip_code,raw_widget,ZIP CODE,Text,826,6,0.0,unk; NA; 94111,Raw PDF widget 'ZIP CODE' extracted from the OL 316 form.
+raw_zip_code_2,raw_widget,Zip Code,Text,7,1,0.0,9,Raw PDF widget 'Zip Code' extracted from the OL 316 form.
+raw_zip_code_2_0,raw_widget,ZIP CODE_2.0,Text,826,3,0.0,nan,Raw PDF widget 'ZIP CODE_2.0' extracted from the OL 316 form.
+raw_zip_code_2_1_0,raw_widget,ZIP CODE_2.1.0,Text,826,3,0.0,nan,Raw PDF widget 'ZIP CODE_2.1.0' extracted from the OL 316 form.
+raw_zip_code_2_1_1_0,raw_widget,ZIP CODE_2.1.1.0,Text,826,5,0.0,NA; 94111; 94538,Raw PDF widget 'ZIP CODE_2.1.1.0' extracted from the OL 316 form.
+raw_zip_code_2_1_1_1,raw_widget,ZIP CODE_2.1.1.1,Text,826,3,0.0,nan,Raw PDF widget 'ZIP CODE_2.1.1.1' extracted from the OL 316 form.
+raw_zipcode,raw_widget,ZIPCODE,Text,7,0,0.0,nan,Raw PDF widget 'ZIPCODE' extracted from the OL 316 form.
+report_id,normalized,nan,derived,832,832,0.0,gm-cruise-collision-report-january-7-2019-pdf; aurora-innovation-collision-report-january-10-2019-pdf; gm-cruise-collision-report-january-10-2019-pdf,Stable report identifier derived from the PDF slug in the manifest.
+report_title,normalized,nan,derived,832,832,0.0,"GM Cruise January 7, 2019 (PDF); Aurora Innovation January 10, 2019 (PDF); GM Cruise January 10, 2019 (PDF)",DMV page title for the report entry.
+report_date_manifest,normalized,nan,derived,832,832,0.0,2019-01-07; 2019-01-10; 2019-01-26,Report date from the DMV page manifest.
+report_year_folder,normalized,nan,derived,832,832,0.0,2019; 2020; 2021,Year-based folder used for local storage.
+page_url,normalized,nan,derived,832,832,0.0,https://www.dmv.ca.gov/portal/file/gm-cruise-collision-report-january-7-2019-pdf/; https://www.dmv.ca.gov/portal/file/aurora-innovation-collision-report-january-10-2019-pdf/; https://www.dmv.ca.gov/portal/file/gm-cruise-collision-report-january-10-2019-pdf/,Original DMV page URL serving the PDF.
+pdf_path,normalized,nan,derived,832,832,0.0,reports/2019/gm-cruise-collision-report-january-7-2019-pdf.pdf; reports/2019/aurora-innovation-collision-report-january-10-2019-pdf.pdf; reports/2019/gm-cruise-collision-report-january-10-2019-pdf.pdf,Relative path to the mirrored PDF file.
+pdf_exists,normalized,nan,derived,832,832,832.0,1,Whether the PDF file existed when parsing ran.
+page_count,normalized,nan,derived,832,832,2.0,3; 1; 2,Number of pages in the PDF.
+ol316_revision,normalized,nan,derived,832,829,0.0,2/2017; 7/2020,Form revision parsed from the first page header.
+manufacturer_name,normalized,nan,derived,832,826,0.0,GM Cruise LLC; Aurora Innovation Inc; Waymo LLC,Manufacturer name from Section 1.
+avt_number,normalized,nan,derived,832,9,0.0,AVT; 003; AVDT004,AVT permit number from Section 1.
+business_name,normalized,nan,derived,832,824,0.0,Cruise; Aurora Innovation Inc; Waymo LLC,Business name from Section 1.
+business_phone,normalized,nan,derived,832,0,0.0,nan,Combined business phone number from Section 1.
+manufacturer_street_address,normalized,nan,derived,832,3,0.0,1201 Bryant Street; 1149 Chess Drive; 1600 Amphitheatre Parkway,Manufacturer street address from Section 1.
+manufacturer_city,normalized,nan,derived,832,5,0.0,San Francisco; Sa; Foster City,Manufacturer city from Section 1.
+manufacturer_state,normalized,nan,derived,832,9,0.0,CA,Manufacturer state from Section 1.
+manufacturer_zip_code,normalized,nan,derived,832,3,0.0,94103; 94404; 94043,Manufacturer ZIP code from Section 1.
+accident_date,normalized,nan,derived,832,826,0.0,01/07/2019; 01/10/2019; 01/26/2019,Accident date from Section 2.
+accident_time,normalized,nan,derived,832,825,0.0,06:54; 02:52; 11:29,Accident time from Section 2.
+accident_meridiem,normalized,nan,derived,832,0,0.0,nan,AM or PM marker from Section 2.
+vehicle1_year,normalized,nan,derived,832,825,0.0,2019; 2017; 2018,Testing vehicle model year.
+vehicle1_make,normalized,nan,derived,832,825,0.0,Chevrolet; Lincoln; Chrysler,Testing vehicle make.
+vehicle1_model,normalized,nan,derived,832,825,0.0,Bolt; MKZ; Pacifica,Testing vehicle model.
+vehicle1_license_plate,normalized,nan,derived,832,1,0.0,67860S3,Testing vehicle license plate number.
+vehicle1_vin,normalized,nan,derived,832,1,0.0,5TDDGRFHXHS029819,Testing vehicle VIN.
+vehicle1_registration_state,normalized,nan,derived,832,813,0.0,CA; California; 2,State where vehicle 1 is registered.
+accident_location_address,normalized,nan,derived,832,825,0.0,Folsom St. and 11th St.; Townsend and 3rd; S. Van Ness Ave between 12th St. and 13th St.,Accident address/location field.
+accident_city,normalized,nan,derived,832,825,0.0,San Francisco; Mountain View; Los Altos,Accident city field.
+accident_county,normalized,nan,derived,832,822,0.0,San Francisco; Santa Clara; Alameda,Accident county field.
+accident_state,normalized,nan,derived,832,823,0.0,CA,Accident state field.
+accident_zip_code,normalized,nan,derived,832,822,0.0,94103; 94107; 94041,Accident ZIP code field.
+vehicle1_moving,normalized,nan,derived,832,832,0.0,0,Vehicle 1 marked as moving.
+vehicle1_stopped_in_traffic,normalized,nan,derived,832,832,0.0,0,Vehicle 1 marked as stopped in traffic.
+vehicle1_involved_pedestrian,normalized,nan,derived,832,832,0.0,0,Vehicle 1 involved a pedestrian.
+vehicle1_involved_bicyclist,normalized,nan,derived,832,832,0.0,0,Vehicle 1 involved a bicyclist.
+vehicle1_involved_other,normalized,nan,derived,832,832,0.0,0,Vehicle 1 involved some other party type.
+vehicle1_other_text,normalized,nan,derived,832,174,0.0,Skateboarder; Truck; Scooter,Free-text description for vehicle 1 'Other' party type.
+number_of_vehicles_involved,normalized,nan,derived,832,818,125.0,2; 3; 1,Number of vehicles involved in the collision.
+vehicle1_driver_name,normalized,nan,derived,832,7,0.0,N/A - Driverless; Zoox,Vehicle 1 driver name field.
+vehicle1_driver_license_number,normalized,nan,derived,832,6,0.0,N/A - Driverless,Vehicle 1 driver license number field.
+vehicle1_driver_license_state,normalized,nan,derived,832,532,0.0,CA; OR; IL,Vehicle 1 driver license state field.
+vehicle1_driver_date_of_birth,normalized,nan,derived,832,2,0.0,1/28/2022; 04/15/1992,Vehicle 1 driver date of birth field.
+vehicle1_insurance_company,normalized,nan,derived,832,0,0.0,nan,Vehicle 1 insurance or surety company.
+vehicle1_policy_number,normalized,nan,derived,832,1,1.0,1,Vehicle 1 insurance policy number.
+vehicle1_company_naic_number,normalized,nan,derived,832,1,0.0,24147,Vehicle 1 insurer NAIC number.
+vehicle1_policy_from,normalized,nan,derived,832,0,0.0,nan,Vehicle 1 insurance policy start date.
+vehicle1_policy_to,normalized,nan,derived,832,0,0.0,nan,Vehicle 1 insurance policy end date.
+vehicle1_damage_level,normalized,nan,derived,832,824,0.0,moderate; minor; major,Damage severity selected for vehicle 1.
+vehicle1_damage_zones,normalized,nan,derived,832,749,0.0,front_driver_side_1; front_driver_side_3; left_front_corner_1; rear_bumper; right_rear_1; right_rear_3; right_rear_1; right_rear_3; right_rear_passenger_2,Semicolon-separated selected vehicle 1 damage diagram regions.
+vehicle2_year,normalized,nan,derived,832,454,0.0,2018; 2004; 2017,Other party vehicle year from Section 3.
+vehicle2_model,normalized,nan,derived,832,658,0.0,Pcx150; Honda CR-V; Prius,Other party vehicle model field from Section 3.
+vehicle2_license_plate,normalized,nan,derived,832,18,0.0,unk.; Unk.; Unk,Vehicle 2 license plate number.
+vehicle2_vin,normalized,nan,derived,832,45,0.0,UNK; unk; unk.,Vehicle 2 VIN.
+vehicle2_registration_state,normalized,nan,derived,832,563,0.0,CA; California; unk.,State where vehicle 2 is registered.
+vehicle2_moving,normalized,nan,derived,832,832,0.0,0,Vehicle 2 marked as moving.
+vehicle2_stopped_in_traffic,normalized,nan,derived,832,832,0.0,0,Vehicle 2 marked as stopped in traffic.
+vehicle2_involved_pedestrian,normalized,nan,derived,832,832,0.0,0,Vehicle 2 involved a pedestrian.
+vehicle2_involved_bicyclist,normalized,nan,derived,832,832,0.0,0,Vehicle 2 involved a bicyclist.
+vehicle2_involved_other,normalized,nan,derived,832,832,0.0,0,Vehicle 2 involved some other party type.
+vehicle2_other_text,normalized,nan,derived,832,81,0.0,Parked; Skateboarder; Electric Scooterist,Free-text description for vehicle 2 'Other' party type.
+vehicle2_driver_name,normalized,nan,derived,832,29,0.0,UNK; unk.; unk,Vehicle 2 driver name field.
+vehicle2_driver_license_number,normalized,nan,derived,832,35,0.0,unk; UNK; unk.,Vehicle 2 driver license number field.
+vehicle2_driver_license_state,normalized,nan,derived,832,309,0.0,un; CA; Un,Vehicle 2 driver license state field.
+vehicle2_driver_date_of_birth,normalized,nan,derived,832,2,0.0,UNK,Vehicle 2 driver date of birth field.
+vehicle2_insurance_company,normalized,nan,derived,832,36,0.0,UNK; unk.; Unknown,Vehicle 2 insurance or surety company.
+vehicle2_policy_number,normalized,nan,derived,832,39,0.0,UNK; unk; unk.,Vehicle 2 insurance policy number.
+vehicle2_company_naic_number,normalized,nan,derived,832,45,0.0,UNK; unk.; Unknown,Vehicle 2 insurer NAIC number.
+vehicle2_policy_from,normalized,nan,derived,832,4,0.0,UNK; 07/01/2023,Vehicle 2 insurance policy start date.
+vehicle2_policy_to,normalized,nan,derived,832,5,0.0,UNK; 07/28/2022; 07/01/2024,Vehicle 2 insurance policy end date.
+vehicle2_additional_information_attached,normalized,nan,derived,832,832,0.0,0,Whether Section 3 indicates additional information attached.
+party1_name,normalized,nan,derived,832,31,0.0,NA; N/A; None,Section 4 first person or property-damage record name.
+party1_address,normalized,nan,derived,832,8,0.0,unk; NA; N/A,Section 4 first record address.
+party1_city,normalized,nan,derived,832,9,0.0,unk; NA; N/A,Section 4 first record city.
+party1_state,normalized,nan,derived,832,36,0.0,un; NA; CA,Section 4 first record state.
+party1_zip_code,normalized,nan,derived,832,6,0.0,unk; NA; 94111,Section 4 first record ZIP code.
+party1_injured,normalized,nan,derived,832,832,0.0,0,Section 4 first record marked injured.
+party1_deceased,normalized,nan,derived,832,832,0.0,0,Section 4 first record marked deceased.
+party1_driver,normalized,nan,derived,832,832,0.0,0,Section 4 first record marked driver.
+party1_passenger,normalized,nan,derived,832,832,0.0,0,Section 4 first record marked passenger.
+party1_bicyclist,normalized,nan,derived,832,832,0.0,0,Section 4 first record marked bicyclist.
+party1_property,normalized,nan,derived,832,832,0.0,0,Section 4 first record marked property.
+party2_name,normalized,nan,derived,832,24,0.0,NA; N/A; None,Section 4 second person or property-damage record name.
+party2_address,normalized,nan,derived,832,5,0.0,NA; N/A,Section 4 second record address.
+party2_city,normalized,nan,derived,832,5,0.0,NA; N/A,Section 4 second record city.
+party2_state,normalized,nan,derived,832,14,0.0,NA; CA,Section 4 second record state.
+party2_zip_code,normalized,nan,derived,832,3,0.0,nan,Section 4 second record ZIP code.
+party2_injured,normalized,nan,derived,832,832,0.0,0,Section 4 second record marked injured.
+party2_deceased,normalized,nan,derived,832,832,0.0,0,Section 4 second record marked deceased.
+party2_driver,normalized,nan,derived,832,832,0.0,0,Section 4 second record marked driver.
+party2_passenger,normalized,nan,derived,832,832,0.0,0,Section 4 second record marked passenger.
+party2_bicyclist,normalized,nan,derived,832,832,0.0,0,Section 4 second record marked bicyclist.
+party2_property,normalized,nan,derived,832,832,0.0,0,Section 4 second record marked property.
+property_damage_description,normalized,nan,derived,832,39,0.0,NA; N/A; Bicycle damage,Section 4 property damage description.
+property_owner_name,normalized,nan,derived,832,5,0.0,NA; N/A,Property owner name from Section 4.
+property_owner_phone,normalized,nan,derived,832,0,0.0,nan,Combined property owner phone number.
+property_owner_address,normalized,nan,derived,832,7,0.0,NA; N/A; Three Embarcadero Center,Property owner street address.
+property_owner_city,normalized,nan,derived,832,8,0.0,NA; N/A; San,Property owner city.
+property_owner_state,normalized,nan,derived,832,7,0.0,NA; CA,Property owner state.
+property_owner_zip_code,normalized,nan,derived,832,5,0.0,NA; 94111; 94538,Property owner ZIP code.
+witness1_name,normalized,nan,derived,832,24,0.0,NA; N/A; None,First witness name.
+witness1_phone,normalized,nan,derived,832,0,0.0,nan,Combined first witness phone number.
+witness1_address,normalized,nan,derived,832,5,0.0,NA; N/A,First witness street address.
+witness1_city,normalized,nan,derived,832,5,0.0,NA; N/A,First witness city.
+witness1_state,normalized,nan,derived,832,24,0.0,NA; CA,First witness state.
+witness1_zip_code,normalized,nan,derived,832,3,0.0,nan,First witness ZIP code.
+witness2_name,normalized,nan,derived,832,22,0.0,NA; N/A; None,Second witness name.
+witness2_phone,normalized,nan,derived,832,0,0.0,nan,Combined second witness phone number.
+witness2_address,normalized,nan,derived,832,5,0.0,NA; N/A,Second witness street address.
+witness2_city,normalized,nan,derived,832,5,0.0,NA; N/A,Second witness city.
+witness2_state,normalized,nan,derived,832,14,0.0,NA; CA,Second witness state.
+witness2_zip_code,normalized,nan,derived,832,3,0.0,nan,Second witness ZIP code.
+section4_additional_information_attached,normalized,nan,derived,832,832,0.0,0,Whether Section 4 indicates additional information attached.
+mode_autonomous,normalized,nan,derived,832,832,0.0,0,Section 5 marked autonomous mode.
+mode_conventional,normalized,nan,derived,832,832,0.0,0,Section 5 marked conventional mode.
+mode_from_form,normalized,nan,derived,832,0,0.0,nan,Driving mode inferred directly from Section 5 checkboxes.
+mode_from_narrative,normalized,nan,derived,832,743,0.0,conventional; autonomous; ambiguous,Driving mode heuristically inferred from the narrative text.
+mode_resolved,normalized,nan,derived,832,743,0.0,conventional; autonomous; ambiguous,Best-effort mode label preferring the form checkbox and falling back to the narrative.
+narrative_text,normalized,nan,derived,832,825,0.0,"A Cruise autonomous vehicle (“Cruise AV”), operating in conventional mode, was making a left turn from northeast bound Folsom Street onto northwest bound 11th Street when a scooterist, attempting to pass the Cruise AV on the left, made contact with the front left side of the Cruise AV, damaging the front left fender, radar, and wheel well of the Cruise AV.  The scooterist reported injuries and emergency services and the police arrived at the scene, but the scooterist declined medical treatment.  No police report was available at the time of the filing of this report.; On 01/10/19 at 2:52pm, an Aurora vehicle, while stopped at a red traffic light in manual mode on Townsend and 3rd, was struck in the rear bumber by a Honda CR-V approaching from behind. There was moderate damage to the Aurora vehicle's right sensor, mount, and side quarter panel. There was minimal damage to the Honda's front right bumper. Both vehicles were operational and pulled over on a side street to exchange vehicle and insurance information. No injuries were reported and no police were requested nor present at the scene.; A Cruise autonomous vehicle (“Cruise AV”), operating in autonomous mode, was traveling northbound on South Van Ness Street near the Howard Street fork when another vehicle, turning right onto South Van Ness from Howard, made contact with the right rear corner of the Cruise AV, causing damage to the Cruise AV’s rear bumper.  There were no injuries and police were not called.",Full free-text accident description from Section 5.
+section5_additional_information_attached,normalized,nan,derived,832,832,4.0,0; 1,Whether Section 5 indicates additional information attached.
+weather_vehicle1_codes,normalized,nan,derived,832,813,0.0,A; B; C,Normalized derived field.
+weather_vehicle1_labels,normalized,nan,derived,832,813,0.0,clear; cloudy; raining,Selected page-3 weather labels for vehicle 1.
+weather_vehicle2_codes,normalized,nan,derived,832,712,0.0,A; B; C,Normalized derived field.
+weather_vehicle2_labels,normalized,nan,derived,832,712,0.0,clear; cloudy; raining,Selected page-3 weather labels for vehicle 2.
+lighting_vehicle1_codes,normalized,nan,derived,832,815,0.0,C; A; B,Normalized derived field.
+lighting_vehicle1_labels,normalized,nan,derived,832,815,0.0,dark_street_lights; daylight; dusk_dawn,Selected page-3 lighting labels for vehicle 1.
+lighting_vehicle2_codes,normalized,nan,derived,832,712,0.0,C; A; B,Normalized derived field.
+lighting_vehicle2_labels,normalized,nan,derived,832,712,0.0,dark_street_lights; daylight; dusk_dawn,Selected page-3 lighting labels for vehicle 2.
+roadway_surface_vehicle1_codes,normalized,nan,derived,832,788,0.0,A; B,Normalized derived field.
+roadway_surface_vehicle1_labels,normalized,nan,derived,832,788,0.0,dry; wet,Selected roadway surface labels for vehicle 1.
+roadway_surface_vehicle2_codes,normalized,nan,derived,832,685,0.0,A; B,Normalized derived field.
+roadway_surface_vehicle2_labels,normalized,nan,derived,832,685,0.0,dry; wet,Selected roadway surface labels for vehicle 2.
+movement_vehicle1_codes,normalized,nan,derived,832,815,0.0,E; A; B,Normalized derived field.
+movement_vehicle1_labels,normalized,nan,derived,832,815,0.0,making_left_turn; stopped; proceeding_straight,Selected movement-preceding-collision labels for vehicle 1.
+movement_vehicle2_codes,normalized,nan,derived,832,716,0.0,J; B; D,Normalized derived field.
+movement_vehicle2_labels,normalized,nan,derived,832,716,0.0,changing_lanes; proceeding_straight; making_right_turn,Selected movement-preceding-collision labels for vehicle 2.
+road_conditions_vehicle1_codes,normalized,nan,derived,832,777,0.0,H; D; E,Normalized derived field.
+road_conditions_vehicle1_labels,normalized,nan,derived,832,777,0.0,no_unusual_conditions; construction_repair_zone; reduced_roadway_width,Selected roadway-condition labels for vehicle 1.
+road_conditions_vehicle2_codes,normalized,nan,derived,832,684,0.0,H; D; E; G,Normalized derived field.
+road_conditions_vehicle2_labels,normalized,nan,derived,832,684,0.0,no_unusual_conditions; construction_repair_zone; reduced_roadway_width; other,Selected roadway-condition labels for vehicle 2.
+collision_type_vehicle1_codes,normalized,nan,derived,832,460,0.0,C; B; A,Selected collision-type codes for vehicle 1.
+collision_type_vehicle1_labels,normalized,nan,derived,832,460,0.0,rear_end; side_swipe; head_on,Selected collision-type labels for vehicle 1.
+collision_type_vehicle2_codes,normalized,nan,derived,832,656,0.0,B; A; C,Selected collision-type codes for vehicle 2.
+collision_type_vehicle2_labels,normalized,nan,derived,832,656,0.0,side_swipe; head_on; rear_end,Selected collision-type labels for vehicle 2.
+collision_type_resolved_codes,normalized,nan,derived,832,806,0.0,B; C; A; C,Best-effort collision type codes after combining vehicle 1 and vehicle 2 selections.
+collision_type_resolved_labels,normalized,nan,derived,832,806,0.0,side_swipe; rear_end; head_on; rear_end,Best-effort collision type labels after combining vehicle 1 and vehicle 2 selections.
+other_associated_factor_labels,normalized,nan,derived,832,0,0.0,nan,Selected page-3 other associated factor labels.
+other_cvc_sections_violated_cited,normalized,nan,derived,832,31,3.0,no; yes,Page-3 citation flag for CVC sections violated.
+other_defective_vehicle_equipment_cited,normalized,nan,derived,832,10,0.0,no,Page-3 citation flag for defective vehicle equipment.
+certifier_name_title,normalized,nan,derived,832,808,0.0,"Kevin Chu, Director of AV Engineering; Chris Urmson, CEO; Matthew Salwasser, Program Manager",Program director or authorized representative printed name and title.
+certifier_phone,normalized,nan,derived,832,6,0.0,415 335-4097; 650 667-9073,Combined certifier phone number.
+date_signed,normalized,nan,derived,832,697,0.0,3/13/2019; 03/18/2019; 01/31/2019,Certification signature date.

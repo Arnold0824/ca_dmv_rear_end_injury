@@ -1,0 +1,17 @@
+\begin{table}[H]
+\centering
+\caption{Nested inferential model specifications.}
+\label{tab:model_specs}
+\scriptsize
+\renewcommand{\arraystretch}{1.08}
+\begin{tabular}{p{2.4cm}p{5.0cm}p{5.2cm}}
+\toprule
+Specification & Included blocks & Analytical purpose \\
+\midrule
+Baseline & Rear-end, autonomous mode, centered interaction & Baseline interaction model without stopped-context or operator controls. \\
+Context & Baseline + VRU + night + intersection-like location & Adds scene-level controls that commonly explain severity heterogeneity. \\
+Stopped-context & Context + stopped-traffic narrative cue & Tests whether queue-like stopping explains the interaction. \\
+Stopped-context + operator & Stopped-context + top-3 manufacturer controls & Checks whether the signal survives operator mix. \\
+\bottomrule
+\end{tabular}
+\end{table}

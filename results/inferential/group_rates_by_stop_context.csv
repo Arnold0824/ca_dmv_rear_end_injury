@@ -1,0 +1,9 @@
+narrative_mentions_stopped,mode_resolved,rear_end,injury_rate,injury_count,sample_size
+0,autonomous,0,0.3103448275862069,18,58
+0,autonomous,1,0.3013698630136986,22,73
+0,conventional,0,0.30303030303030304,20,66
+0,conventional,1,0.13043478260869565,3,23
+1,autonomous,0,0.2222222222222222,6,27
+1,autonomous,1,0.5,22,44
+1,conventional,0,0.4117647058823529,7,17
+1,conventional,1,0.34375,11,32
